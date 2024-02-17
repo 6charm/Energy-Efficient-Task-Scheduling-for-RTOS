@@ -1,0 +1,1936 @@
+13640 execve("/usr/bin/python3", ["python3", "try-automate/check.py"], 0x7ffdc57595e0 /* 31 vars */) = 0
+13640 brk(NULL)                         = 0x1c27000
+13640 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff71797b000
+13640 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+13640 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=24010, ...}, AT_EMPTY_PATH) = 0
+13640 mmap(NULL, 24010, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff717975000
+13640 close(3)                          = 0
+13640 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+13640 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=907784, ...}, AT_EMPTY_PATH) = 0
+13640 mmap(NULL, 909560, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff717896000
+13640 mmap(0x7ff7178a6000, 471040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7ff7178a6000
+13640 mmap(0x7ff717919000, 368640, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x83000) = 0x7ff717919000
+13640 mmap(0x7ff717973000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xdc000) = 0x7ff717973000
+13640 close(3)                          = 0
+13640 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+13640 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=121280, ...}, AT_EMPTY_PATH) = 0
+13640 mmap(NULL, 123280, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff717877000
+13640 mmap(0x7ff71787a000, 77824, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7ff71787a000
+13640 mmap(0x7ff71788d000, 28672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7ff71788d000
+13640 mmap(0x7ff717894000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7ff717894000
+13640 close(3)                          = 0
+13640 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 3
+13640 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=174216, ...}, AT_EMPTY_PATH) = 0
+13640 mmap(NULL, 172200, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff71784c000
+13640 mmap(0x7ff717850000, 114688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7ff717850000
+13640 mmap(0x7ff71786c000, 32768, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7ff71786c000
+13640 mmap(0x7ff717874000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7ff717874000
+13640 close(3)                          = 0
+13640 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+13640 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220s\2\0\0\0\0\0"..., 832) = 832
+13640 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+13640 newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=1922136, ...}, AT_EMPTY_PATH) = 0
+13640 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+13640 mmap(NULL, 1970000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff71766b000
+13640 mmap(0x7ff717691000, 1396736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26000) = 0x7ff717691000
+13640 mmap(0x7ff7177e6000, 339968, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17b000) = 0x7ff7177e6000
+13640 mmap(0x7ff717839000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ce000) = 0x7ff717839000
+13640 mmap(0x7ff71783f000, 53072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff71783f000
+13640 close(3)                          = 0
+13640 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff717669000
+13640 arch_prctl(ARCH_SET_FS, 0x7ff71766a040) = 0
+13640 set_tid_address(0x7ff71766a310)   = 13640
+13640 set_robust_list(0x7ff71766a320, 24) = 0
+13640 rseq(0x7ff71766a960, 0x20, 0, 0x53053053) = 0
+13640 mprotect(0x7ff717839000, 16384, PROT_READ) = 0
+13640 mprotect(0x7ff717874000, 8192, PROT_READ) = 0
+13640 mprotect(0x7ff717894000, 4096, PROT_READ) = 0
+13640 mprotect(0x7ff717973000, 4096, PROT_READ) = 0
+13640 mprotect(0x945000, 4096, PROT_READ) = 0
+13640 mprotect(0x7ff7179ad000, 8192, PROT_READ) = 0
+13640 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+13640 munmap(0x7ff717975000, 24010)     = 0
+13640 getrandom("\xc9\x80\x8d\xf6\x60\x18\x0b\x83", 8, GRND_NONBLOCK) = 8
+13640 brk(NULL)                         = 0x1c27000
+13640 brk(0x1c48000)                    = 0x1c48000
+13640 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3053616, ...}, AT_EMPTY_PATH) = 0
+13640 mmap(NULL, 3053616, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff717200000
+13640 close(3)                          = 0
+13640 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=27028, ...}, AT_EMPTY_PATH) = 0
+13640 mmap(NULL, 27028, PROT_READ, MAP_SHARED, 3, 0) = 0x7ff717662000
+13640 close(3)                          = 0
+13640 futex(0x7ff71783ea4c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+13640 getcwd("/home/armaan/BIOShoc/aIO", 4096) = 25
+13640 getrandom("\xe9\xa3\x6a\x9b\xa8\xbd\xf0\x2b\x6e\xe3\x75\x94\xf5\x95\x22\xa7\x61\xd4\x72\x37\xda\xcb\x3d\xaa", 24, GRND_NONBLOCK) = 24
+13640 gettid()                          = 13640
+13640 mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff717562000
+13640 mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff717521000
+13640 mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff717500000
+13640 mmap(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff717977000
+13640 brk(0x1c69000)                    = 0x1c69000
+13640 newfstatat(AT_FDCWD, "/home/armaan/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/bin/remote-cli/python3", 0x7ffcd0ec6580, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/local/bin/python3", 0x7ffcd0ec6580, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/bin/python3", {st_mode=S_IFREG|0755, st_size=6831704, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+13640 openat(AT_FDCWD, "/usr/bin/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+13640 readlink("/usr/bin/python3", "python3.11", 4096) = 10
+13640 readlink("/usr/bin/python3.11", 0x7ffcd0ec15b0, 4096) = -1 EINVAL (Invalid argument)
+13640 openat(AT_FDCWD, "/usr/bin/python3._pth", O_RDONLY) = -1 ENOENT (No such file or directory)
+13640 openat(AT_FDCWD, "/usr/bin/python3.11._pth", O_RDONLY) = -1 ENOENT (No such file or directory)
+13640 openat(AT_FDCWD, "/usr/bin/pybuilddir.txt", O_RDONLY) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/bin/Modules/Setup.local", 0x7ffcd0ec6580, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/bin/lib/python311.zip", 0x7ffcd0ec6350, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib/python311.zip", 0x7ffcd0ec6350, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/bin/lib/python3.11/os.py", 0x7ffcd0ec61a0, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/bin/lib/python3.11/os.pyc", 0x7ffcd0ec61a0, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/os.py", {st_mode=S_IFREG|0644, st_size=39504, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/bin/lib/python3.11/lib-dynload", 0x7ffcd0ec6350, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 sysinfo({uptime=28542, loads=[3232, 3200, 3488], totalram=1007222784, freeram=177709056, sharedram=311296, bufferram=27787264, totalswap=1022357504, freeswap=946581504, procs=186, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+13640 openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=285, ...}, AT_EMPTY_PATH) = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=285, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 285
+13640 lseek(3, -169, SEEK_CUR)          = 116
+13640 read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4096) = 169
+13640 close(3)                          = 0
+13640 brk(0x1c97000)                    = 0x1c97000
+13640 newfstatat(AT_FDCWD, "/usr/lib/python311.zip", 0x7ffcd0ec5de0, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python311.zip", 0x7ffcd0ec60b0, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+13640 newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=12288, ...}, AT_EMPTY_PATH) = 0
+13640 getdents64(3, 0x1c359c0 /* 206 entries */, 32768) = 6880
+13640 getdents64(3, 0x1c359c0 /* 0 entries */, 32768) = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/encodings/__init__.cpython-311-x86_64-linux-gnu.so", 0x7ffcd0ec60b0, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/encodings/__init__.abi3.so", 0x7ffcd0ec6100, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/encodings/__init__.so", 0x7ffcd0ec6100, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5884, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5884, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/encodings/__pycache__/__init__.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 fcntl(3, F_GETFD)                 = 0x1 (flags FD_CLOEXEC)
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=6457, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5d40)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=6457, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\374\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 6458) = 6457
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/encodings", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+13640 newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+13640 getdents64(3, 0x1c76870 /* 125 entries */, 32768) = 4224
+13640 getdents64(3, 0x1c76870 /* 0 entries */, 32768) = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=15677, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=15677, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/encodings/__pycache__/aliases.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=12647, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5240)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=12647, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d==\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 12648) = 12647
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/encodings/__pycache__/utf_8.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2316, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5d40)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2316, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\355\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 2317) = 2316
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7ff7176a6fd0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGXFSZ, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7ff7176a6fd0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGHUP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGQUIT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGTRAP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGABRT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGFPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGKILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGUSR1, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGSEGV, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGUSR2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7ff7176a6fd0}, 8) = 0
+13640 rt_sigaction(SIGALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGSTKFLT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGCHLD, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGCONT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGSTOP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGTSTP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGTTIN, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGTTOU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGURG, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGXCPU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGXFSZ, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7ff7176a6fd0}, 8) = 0
+13640 rt_sigaction(SIGVTALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGPROF, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGIO, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGPWR, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGSYS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_3, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_4, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_5, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_6, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_7, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_8, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_9, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_10, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_11, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_12, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_13, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_14, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_15, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_16, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_17, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_18, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_19, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_20, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_21, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_22, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_23, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_24, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_25, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_26, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_27, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_28, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_29, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_30, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_31, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGRT_32, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 rt_sigaction(SIGINT, {sa_handler=0x678c70, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7ff7176a6fd0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+13640 newfstatat(0, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+13640 fcntl(0, F_GETFD)                 = 0
+13640 newfstatat(0, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(0, TCGETS, {c_iflag=BRKINT|ICRNL|IXON|IXANY|IMAXBEL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD|HUPCL, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+13640 lseek(0, 0, SEEK_CUR)             = -1 ESPIPE (Illegal seek)
+13640 ioctl(0, TCGETS, {c_iflag=BRKINT|ICRNL|IXON|IXANY|IMAXBEL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD|HUPCL, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+13640 fcntl(1, F_GETFD)                 = 0
+13640 newfstatat(1, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(1, TCGETS, {c_iflag=BRKINT|ICRNL|IXON|IXANY|IMAXBEL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD|HUPCL, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+13640 lseek(1, 0, SEEK_CUR)             = -1 ESPIPE (Illegal seek)
+13640 ioctl(1, TCGETS, {c_iflag=BRKINT|ICRNL|IXON|IXANY|IMAXBEL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD|HUPCL, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+13640 fcntl(2, F_GETFD)                 = 0
+13640 newfstatat(2, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(2, TCGETS, {c_iflag=BRKINT|ICRNL|IXON|IXANY|IMAXBEL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD|HUPCL, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+13640 lseek(2, 0, SEEK_CUR)             = -1 ESPIPE (Illegal seek)
+13640 ioctl(2, TCGETS, {c_iflag=BRKINT|ICRNL|IXON|IXANY|IMAXBEL|IUTF8, c_oflag=NL0|CR0|TAB0|BS0|VT0|FF0|OPOST|ONLCR, c_cflag=B38400|CS8|CREAD|HUPCL, c_lflag=ISIG|ICANON|ECHO|ECHOE|ECHOK|IEXTEN|ECHOCTL|ECHOKE, ...}) = 0
+13640 mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff717100000
+13640 newfstatat(AT_FDCWD, "/usr/bin/pyvenv.cfg", 0x7ffcd0ec5ee0, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/pyvenv.cfg", 0x7ffcd0ec5ee0, 0) = -1 ENOENT (No such file or directory)
+13640 geteuid()                         = 1000
+13640 getuid()                          = 1000
+13640 getegid()                         = 1000
+13640 getgid()                          = 1000
+13640 newfstatat(AT_FDCWD, "/home/armaan/.local/lib/python3.11/site-packages", 0x7ffcd0ec5ee0, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/local/lib/python3.11/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+13640 newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+13640 brk(0x1cb9000)                    = 0x1cb9000
+13640 getdents64(3, 0x1c90c60 /* 2 entries */, 32768) = 48
+13640 getdents64(3, 0x1c90c60 /* 0 entries */, 32768) = 0
+13640 brk(0x1cb1000)                    = 0x1cb1000
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+13640 newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+13640 getdents64(3, 0x1c90c60 /* 43 entries */, 32768) = 1720
+13640 getdents64(3, 0x1c90c60 /* 0 entries */, 32768) = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/dist-packages", 0x7ffcd0ec5ee0, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/sitecustomize.py", {st_mode=S_IFREG|0644, st_size=155, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/sitecustomize.py", {st_mode=S_IFREG|0644, st_size=155, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/sitecustomize.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=334, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5780)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=334, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\233\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 335) = 334
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/lib-dynload", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+13640 newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+13640 getdents64(3, 0x1c90c60 /* 48 entries */, 32768) = 3016
+13640 getdents64(3, 0x1c90c60 /* 0 entries */, 32768) = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/local/lib/python3.11/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+13640 newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+13640 getdents64(3, 0x1c90c60 /* 2 entries */, 32768) = 48
+13640 getdents64(3, 0x1c90c60 /* 0 entries */, 32768) = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3/dist-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+13640 newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+13640 getdents64(3, 0x1c90c60 /* 43 entries */, 32768) = 1720
+13640 getdents64(3, 0x1c90c60 /* 0 entries */, 32768) = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate/check.py", {st_mode=S_IFREG|0644, st_size=9055, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate/check.py", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec6450)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, -22, SEEK_END)           = 9033
+13640 lseek(3, 0, SEEK_CUR)             = 9033
+13640 read(3, "\"__main__\":\n    main()", 4096) = 22
+13640 lseek(3, 0, SEEK_END)             = 9055
+13640 lseek(3, 0, SEEK_CUR)             = 9055
+13640 lseek(3, 0, SEEK_SET)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\"\"\"\n# FILE: generate-text-files."..., 9056) = 9055
+13640 read(3, "", 1)                    = 0
+13640 lseek(3, 0, SEEK_SET)             = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate/check.py", {st_mode=S_IFREG|0644, st_size=9055, ...}, 0) = 0
+13640 readlink("try-automate/check.py", 0x7ffcd0eb5bc0, 4096) = -1 EINVAL (Invalid argument)
+13640 getcwd("/home/armaan/BIOShoc/aIO", 1024) = 25
+13640 readlink("/home/armaan/BIOShoc/aIO/try-automate", 0x7ffcd0eb5760, 1023) = -1 EINVAL (Invalid argument)
+13640 readlink("/home/armaan/BIOShoc/aIO/try-automate/check.py", 0x7ffcd0eb5760, 1023) = -1 EINVAL (Invalid argument)
+13640 openat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate/check.py", O_RDONLY) = 3
+13640 ioctl(3, FIOCLEX)                 = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec6b50)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\"\"\"\n# FILE: generate-text-files."..., 4096) = 4096
+13640 lseek(3, 0, SEEK_SET)             = 0
+13640 read(3, "\"\"\"\n# FILE: generate-text-files."..., 4096) = 4096
+13640 brk(0x1cd3000)                    = 0x1cd3000
+13640 brk(0x1cf5000)                    = 0x1cf5000
+13640 read(3, "and}\\n{max_run_time}\\n{output}\\n"..., 4096) = 4096
+13640 brk(0x1d16000)                    = 0x1d16000
+13640 read(3, "\",\n        \"sequential regular m"..., 4096) = 863
+13640 read(3, "", 4096)                 = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+13640 newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+13640 brk(0x1d3a000)                    = 0x1d3a000
+13640 getdents64(3, 0x1d11540 /* 4 entries */, 32768) = 112
+13640 getdents64(3, 0x1d11540 /* 0 entries */, 32768) = 0
+13640 brk(0x1d32000)                    = 0x1d32000
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re/__init__.cpython-311-x86_64-linux-gnu.so", 0x7ffcd0ec6450, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re/__init__.abi3.so", 0x7ffcd0ec6450, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re/__init__.so", 0x7ffcd0ec6450, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re/__init__.py", {st_mode=S_IFREG|0644, st_size=15889, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re/__init__.py", {st_mode=S_IFREG|0644, st_size=15889, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/re/__pycache__/__init__.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=19314, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec6090)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=19314, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\21>\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 19315) = 19314
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/enum.py", {st_mode=S_IFREG|0644, st_size=78649, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/enum.py", {st_mode=S_IFREG|0644, st_size=78649, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/enum.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=86448, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5a30)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=86448, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d93\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 86449) = 86448
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/types.py", {st_mode=S_IFREG|0644, st_size=10067, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/types.py", {st_mode=S_IFREG|0644, st_size=10067, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/types.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=14819, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec53d0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=14819, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17dS'\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 14820) = 14819
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/operator.py", {st_mode=S_IFREG|0644, st_size=10965, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/operator.py", {st_mode=S_IFREG|0644, st_size=10965, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/operator.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=18759, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5420)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=18759, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\325*\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 18760) = 18759
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/functools.py", {st_mode=S_IFREG|0644, st_size=38413, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/functools.py", {st_mode=S_IFREG|0644, st_size=38413, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/functools.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=46633, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5420)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=46633, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\r\226\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0"..., 46634) = 46633
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/collections/__init__.cpython-311-x86_64-linux-gnu.so", 0x7ffcd0ec5130, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/collections/__init__.abi3.so", 0x7ffcd0ec5130, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/collections/__init__.so", 0x7ffcd0ec5130, 0) = -1 ENOENT (No such file or directory)
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/collections/__init__.py", {st_mode=S_IFREG|0644, st_size=51929, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/collections/__init__.py", {st_mode=S_IFREG|0644, st_size=51929, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/collections/__pycache__/__init__.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=78037, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec4dc0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=78037, ...}, AT_EMPTY_PATH) = 0
+13640 brk(0x1d56000)                    = 0x1d56000
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\331\312\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 78038) = 78037
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 brk(0x1d43000)                    = 0x1d43000
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/keyword.py", {st_mode=S_IFREG|0644, st_size=1061, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/keyword.py", {st_mode=S_IFREG|0644, st_size=1061, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/keyword.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1068, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec4760)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1068, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d%\4\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 1069) = 1068
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/reprlib.py", {st_mode=S_IFREG|0644, st_size=5437, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/reprlib.py", {st_mode=S_IFREG|0644, st_size=5437, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/reprlib.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9678, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec4760)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9678, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d=\25\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 9679) = 9678
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/re", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+13640 newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+13640 getdents64(3, 0x1d2e7b0 /* 8 entries */, 32768) = 248
+13640 getdents64(3, 0x1d2e7b0 /* 0 entries */, 32768) = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re/_compiler.py", {st_mode=S_IFREG|0644, st_size=26013, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re/_compiler.py", {st_mode=S_IFREG|0644, st_size=26013, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/re/__pycache__/_compiler.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=31820, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec55e0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=31820, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\235e\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 31821) = 31820
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re/_parser.py", {st_mode=S_IFREG|0644, st_size=42113, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re/_parser.py", {st_mode=S_IFREG|0644, st_size=42113, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/re/__pycache__/_parser.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=49872, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec4ae0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=49872, ...}, AT_EMPTY_PATH) = 0
+13640 brk(0x1d6c000)                    = 0x1d6c000
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\201\244\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0"..., 49873) = 49872
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re/_constants.py", {st_mode=S_IFREG|0644, st_size=5930, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re/_constants.py", {st_mode=S_IFREG|0644, st_size=5930, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/re/__pycache__/_constants.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5950, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec4480)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5950, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d*\27\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\24\0\0"..., 5951) = 5950
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re/_casefix.py", {st_mode=S_IFREG|0644, st_size=5446, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/re/_casefix.py", {st_mode=S_IFREG|0644, st_size=5446, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/re/__pycache__/_casefix.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1846, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec4f80)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1846, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17dF\25\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 1847) = 1846
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/copyreg.py", {st_mode=S_IFREG|0644, st_size=7677, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/copyreg.py", {st_mode=S_IFREG|0644, st_size=7677, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/copyreg.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=8178, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5a80)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=8178, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\375\35\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 8179) = 8178
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/subprocess.py", {st_mode=S_IFREG|0644, st_size=85746, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/subprocess.py", {st_mode=S_IFREG|0644, st_size=85746, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/subprocess.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=82147, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec60e0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=82147, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\362N\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 82148) = 82147
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 brk(0x1d8d000)                    = 0x1d8d000
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/locale.py", {st_mode=S_IFREG|0644, st_size=79002, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/locale.py", {st_mode=S_IFREG|0644, st_size=79002, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/locale.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=64276, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5a80)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=64276, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\2324\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\f\0\0"..., 64277) = 64276
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/signal.py", {st_mode=S_IFREG|0644, st_size=2438, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/signal.py", {st_mode=S_IFREG|0644, st_size=2438, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/signal.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5017, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5a80)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5017, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\206\t\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 5018) = 5017
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/threading.py", {st_mode=S_IFREG|0644, st_size=57818, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/threading.py", {st_mode=S_IFREG|0644, st_size=57818, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/threading.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=69833, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5a80)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=69833, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\332\341\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 69834) = 69833
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff717000000
+13640 mmap(NULL, 208896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff716fcd000
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/_weakrefset.py", {st_mode=S_IFREG|0644, st_size=5893, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/_weakrefset.py", {st_mode=S_IFREG|0644, st_size=5893, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/_weakrefset.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=13137, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5420)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=13137, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\5\27\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 13138) = 13137
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 gettid()                          = 13640
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/warnings.py", {st_mode=S_IFREG|0644, st_size=21025, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/warnings.py", {st_mode=S_IFREG|0644, st_size=21025, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/warnings.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=25032, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5a80)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=25032, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d!R\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 25033) = 25032
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/contextlib.py", {st_mode=S_IFREG|0644, st_size=27076, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/contextlib.py", {st_mode=S_IFREG|0644, st_size=27076, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/contextlib.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=32611, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5a80)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=32611, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\304i\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0"..., 32612) = 32611
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/selectors.py", {st_mode=S_IFREG|0644, st_size=19485, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/selectors.py", {st_mode=S_IFREG|0644, st_size=19485, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/__pycache__/selectors.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=28345, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5a80)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=28345, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17d\35L\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 28346) = 28345
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/collections", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+13640 newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+13640 getdents64(3, 0x1d70c70 /* 5 entries */, 32768) = 144
+13640 getdents64(3, 0x1d70c70 /* 0 entries */, 32768) = 0
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/collections/abc.py", {st_mode=S_IFREG|0644, st_size=119, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/collections/abc.py", {st_mode=S_IFREG|0644, st_size=119, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/collections/__pycache__/abc.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=294, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec5420)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=294, ...}, AT_EMPTY_PATH) = 0
+13640 read(3, "\247\r\r\n\0\0\0\0\225\24\17dw\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 295) = 294
+13640 read(3, "", 1)                    = 0
+13640 close(3)                          = 0
+13640 epoll_create1(EPOLL_CLOEXEC)      = 3
+13640 close(3)                          = 0
+13640 newfstatat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 newfstatat(AT_FDCWD, "/usr/lib/python3.11/lib-dynload/resource.cpython-311-x86_64-linux-gnu.so", {st_mode=S_IFREG|0644, st_size=19240, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/lib/python3.11/lib-dynload/resource.cpython-311-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+13640 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=19240, ...}, AT_EMPTY_PATH) = 0
+13640 mmap(NULL, 21392, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff7174fa000
+13640 mmap(0x7ff7174fc000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7ff7174fc000
+13640 mmap(0x7ff7174fd000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7ff7174fd000
+13640 mmap(0x7ff7174fe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7ff7174fe000
+13640 close(3)                          = 0
+13640 mprotect(0x7ff7174fe000, 4096, PROT_READ) = 0
+13640 newfstatat(AT_FDCWD, "files", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+13640 openat(AT_FDCWD, "/usr/share/dict/words", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=985084, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec6660)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 openat(AT_FDCWD, "files/text1meg.txt", O_WRONLY|O_CREAT|O_TRUNC|O_CLOEXEC, 0666) = 4
+13640 newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(4, TCGETS, 0x7ffcd0ec6660)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(4, 0, SEEK_CUR)             = 0
+13640 lseek(4, 0, SEEK_CUR)             = 0
+13640 read(3, "A\nAA\nAAA\nAA's\nAB\nABC\nABC's\nABCs\n"..., 8192) = 8192
+13640 read(3, "a\nApalachicola's\nApatosaurus\nApe"..., 8192) = 8192
+13640 write(4, "A\nAA\nAAA\nAA's\nAB\nABC\nABC's\nABCs\n"..., 8181) = 8181
+13640 write(4, "Apalachicola\nApalachicola's\nApat"..., 8191) = 8191
+13640 read(3, "Beatlemania's\nBeatles\nBeatles's\n"..., 8192) = 8192
+13640 write(4, "Beatlemania\nBeatlemania's\nBeatle"..., 8190) = 8190
+13640 read(3, "es\nBrowning\nBrowning's\nBrown's\nB"..., 8192) = 8192
+13640 write(4, "Brownie\nBrownies\nBrowning\nBrowni"..., 8192) = 8192
+13640 read(3, "lotte's\nCharlottesville\nCharlott"..., 8192) = 8192
+13640 write(4, "Charlotte\nCharlotte's\nCharlottes"..., 8189) = 8189
+13640 read(3, "Crookes's\nCrosby\nCrosby's\nCross\n"..., 8192) = 8192
+13640 write(4, "Cronus's\nCrookes\nCrookes's\nCrosb"..., 8189) = 8189
+13640 read(3, "na's\nDvor\303\241k\nDvor\303\241k's\nDwayne\nDw"..., 8192) = 8192
+13640 write(4, "Duvalier's\nDvina\nDvina's\nDvor\303\241k"..., 8183) = 8183
+13640 read(3, "'s\nFizeau\nFizeau's\nFla\nFlagstaff"..., 8192) = 8192
+13640 write(4, "Fitzpatrick's\nFitzroy\nFitzroy's\n"..., 8192) = 8192
+13640 read(3, "l's\nGrammy\nGrammy's\nGrampians\nGr"..., 8192) = 8192
+13640 write(4, "Grahame's\nGraham's\nGrail\nGrail's"..., 8188) = 8188
+13640 read(3, "er\nHofstadter's\nHogan\nHogan's\nHo"..., 8192) = 8192
+13640 write(4, "Hoffman\nHoffman's\nHoff's\nHofstad"..., 8189) = 8189
+13640 read(3, "in\nJilin's\nJill\nJillian\nJillian'"..., 8192) = 8192
+13640 write(4, "Jezebel's\nJezebels\nJidda\nJidda's"..., 8186) = 8186
+13640 read(3, "s\nLachesis's\nLacy\nLacy's\nLadoga\n"..., 8192) = 8192
+13640 write(4, "Labrador's\nLabradors\nLacey\nLacey"..., 8187) = 8187
+13640 read(3, "nald\nMacDonald's\nMacLeish\nMacLei"..., 8192) = 8192
+13640 write(4, "MacArthur\nMacArthur's\nMacBride\nM"..., 8183) = 8183
+13640 read(3, "\nMelinda\nMelinda's\nMelisa\nMelisa"..., 8192) = 8192
+13640 write(4, "Melchior's\nMelchizedek\nMelchized"..., 8190) = 8190
+13640 read(3, "FW\nNT\nNV\nNVIDIA\nNVIDIA's\nNW\nNWT\n"..., 8192) = 8192
+13640 write(4, "NHL's\nNIMBY\nNJ\nNM\nNORAD\nNORAD's\n"..., 8188) = 8188
+13640 read(3, "s\nOuija\nOuija's\nOvid\nOvid's\nOwen"..., 8192) = 8192
+13640 write(4, "Ottawas\nOtto\nOttoman\nOttoman's\nO"..., 8189) = 8189
+13640 read(3, "ce's\nPres\nPresbyterian\nPresbyter"..., 8192) = 8192
+13640 write(4, "Preminger's\nPremyslid\nPremyslid'"..., 8189) = 8189
+13640 read(3, "osicrucian\nRosicrucian's\nRosie\nR"..., 8192) = 8192
+13640 write(4, "Rosendo\nRosendo's\nRosenzweig\nRos"..., 8188) = 8188
+13640 read(3, "\nSheena's\nSheetrock\nSheetrock's\n"..., 8192) = 8192
+13640 write(4, "Shea\nShea's\nSheba\nSheba's\nShebel"..., 8184) = 8184
+13640 read(3, "acuse's\nSyria\nSyriac\nSyriac's\nSy"..., 8192) = 8192
+13640 write(4, "Sylvester\nSylvester's\nSylvia\nSyl"..., 8192) = 8192
+13640 read(3, "\nTyndale\nTyndale's\nTyndall\nTynda"..., 8192) = 8192
+13640 write(4, "Twitter's\nTwizzlers\nTwizzlers's\n"..., 8189) = 8189
+13640 read(3, "g's\nWilliamson\nWilliamson's\nWill"..., 8192) = 8192
+13640 write(4, "Willa's\nWillemstad\nWillemstad's\n"..., 8186) = 8186
+13640 read(3, "urdity\nabsurdity's\nabsurdly\nabun"..., 8192) = 8192
+13640 write(4, "abstruse\nabstrusely\nabstruseness"..., 8187) = 8187
+13640 read(3, "ntages\nadvantaging\nadvent\nadvent"..., 8192) = 8192
+13640 write(4, "advance's\nadvances\nadvancing\nadv"..., 8189) = 8189
+13640 read(3, "ion's\naltercations\naltered\nalter"..., 8192) = 8192
+13640 write(4, "alt\naltar\naltar's\naltars\nalter\na"..., 8186) = 8186
+13640 read(3, "ticking\nanticlimactic\nanticlimax"..., 8192) = 8192
+13640 write(4, "anticipated\nanticipates\nanticipa"..., 8190) = 8190
+13640 read(3, "s\narrange\narranged\narrangement\na"..., 8192) = 8192
+13640 write(4, "arpeggio\narpeggio's\narpeggios\nar"..., 8188) = 8188
+13640 read(3, "uthenticated\nauthenticates\nauthe"..., 8192) = 8192
+13640 write(4, "austere\nausterely\nausterer\nauste"..., 8191) = 8191
+13640 read(3, "y\nbaptistry's\nbaptists\nbaptize\nb"..., 8192) = 8192
+13640 write(4, "baobabs\nbaptism\nbaptismal\nbaptis"..., 8189) = 8189
+13640 read(3, "\nbenchmark\nbenchmark's\nbenchmark"..., 8192) = 8192
+13640 write(4, "beltways\nbelying\nbemoan\nbemoaned"..., 8192) = 8192
+13640 read(3, "s\nbleachers\nbleaches\nbleaching\nb"..., 8192) = 8192
+13640 write(4, "blazers\nblaze's\nblazes\nblazing\nb"..., 8191) = 8191
+13640 read(3, "both\nbother\nbothered\nbothering\nb"..., 8192) = 8192
+13640 write(4, "bosun's\nbosuns\nbot\nbotanical\nbot"..., 8191) = 8191
+13640 read(3, "buccaneer\nbuccaneered\nbuccaneeri"..., 8192) = 8192
+13640 write(4, "brute\nbrute's\nbrutes\nbrutish\nbru"..., 8190) = 8190
+13640 read(3, "alibration's\ncalibrations\ncalibr"..., 8192) = 8192
+13640 write(4, "calf's\ncalfs\ncalfskin\ncalfskin's"..., 8189) = 8189
+13640 read(3, "s\ncartridge\ncartridge's\ncartridg"..., 8192) = 8192
+13640 write(4, "cartography's\ncarton\ncarton's\nca"..., 8188) = 8188
+13640 read(3, "ors\nchancel's\nchancels\nchancerie"..., 8192) = 8192
+13640 write(4, "championships\nchamp's\nchamps\ncha"..., 8180) = 8180
+13640 read(3, "s\nch\303\242teaux\nch\303\242telaine\nch\303\242tela"..., 8192) = 8192
+13640 write(4, "chronometer's\nchronometers\nchrys"..., 8190) = 8190
+13640 read(3, "ng\nclueless\nclue's\nclues\ncluing\n"..., 8192) = 8192
+13640 write(4, "clubbing\nclubfeet\nclubfoot\nclubf"..., 8187) = 8187
+13640 read(3, "sar's\ncommissars\ncommissary\ncomm"..., 8192) = 8192
+13640 write(4, "commiserates\ncommiserating\ncommi"..., 8192) = 8192
+13640 read(3, "\nconfetti\nconfetti's\nconfidant\nc"..., 8192) = 8192
+13640 write(4, "confessedly\nconfesses\nconfessing"..., 8186) = 8186
+13640 read(3, "actor\ncontractor's\ncontractors\nc"..., 8192) = 8192
+13640 write(4, "contraception's\ncontraceptive\nco"..., 8185) = 8185
+13640 read(3, "n\ncouncilor\ncouncilor's\ncouncilo"..., 8192) = 8192
+13640 write(4, "cougar's\ncougars\ncough\ncoughed\nc"..., 8190) = 8190
+13640 read(3, "king\ncrook's\ncrooks\ncroon\ncroone"..., 8192) = 8192
+13640 write(4, "crofts\ncroissant\ncroissant's\ncro"..., 8188) = 8188
+13640 read(3, "g\ndamn's\ndamns\ndamp\ndamped\ndampe"..., 8192) = 8192
+13640 write(4, "damaging\ndamask\ndamasked\ndamaski"..., 8188) = 8188
+13640 read(3, "tes\ndeflating\ndeflation\ndeflatio"..., 8192) = 8192
+13640 write(4, "definer's\ndefiners\ndefines\ndefin"..., 8192) = 8192
+13640 read(3, "s\ndervish\ndervishes\ndervish's\nde"..., 8192) = 8192
+13640 write(4, "derogate\nderogated\nderogates\nder"..., 8188) = 8188
+13640 read(3, "utives\ndimly\ndimmed\ndimmer\ndimme"..., 8192) = 8192
+13640 write(4, "dime's\ndimes\ndiminish\ndiminished"..., 8187) = 8187
+13640 read(3, "loyalty\ndisloyalty's\ndismal\ndism"..., 8192) = 8192
+13640 write(4, "dislike's\ndislikes\ndisliking\ndis"..., 8187) = 8187
+13640 read(3, "ing\ndomestication\ndomestication'"..., 8192) = 8192
+13640 write(4, "dolorous\ndolphin\ndolphin's\ndolph"..., 8189) = 8189
+13640 read(3, "durability's\ndurable\ndurably\ndur"..., 8192) = 8192
+13640 write(4, "duping\nduplex\nduplexes\nduplex's\n"..., 8188) = 8188
+13640 read(3, "ongate\nelongated\nelongates\nelong"..., 8192) = 8192
+13640 write(4, "elk's\nelks\nell\nellipse\nellipse's"..., 8189) = 8189
+13640 read(3, "g\nentails\nentangle\nentangled\nent"..., 8192) = 8192
+13640 write(4, "ensigns\nenslave\nenslaved\nenslave"..., 8185) = 8185
+13640 read(3, "vidence\nevidenced\nevidence's\nevi"..., 8192) = 8192
+13640 write(4, "everlastings\nevermore\nevery\never"..., 8192) = 8192
+13640 read(3, "h\nextinguishable\nextinguished\nex"..., 8192) = 8192
+13640 write(4, "extermination's\nexterminations\ne"..., 8187) = 8187
+13640 read(3, "ships\nfell's\nfells\nfelon\nfelonie"..., 8192) = 8192
+13640 write(4, "feisty\nfeldspar\nfeldspar's\nfelic"..., 8190) = 8190
+13640 read(3, "lashily\nflashiness\nflashiness's\n"..., 8192) = 8192
+13640 write(4, "flared\nflare's\nflares\nflaring\nfl"..., 8189) = 8189
+13640 read(3, "\nforeign\nforeigner\nforeigner's\nf"..., 8192) = 8192
+13640 write(4, "foregather\nforegathered\nforegath"..., 8186) = 8186
+13640 read(3, "frothier\nfrothiest\nfrothing\nfrot"..., 8192) = 8192
+13640 write(4, "front's\nfronts\nfrost\nfrostbit\nfr"..., 8188) = 8188
+13640 read(3, "s\ngeldings\ngelds\ngelid\ngelled\nge"..., 8192) = 8192
+13640 write(4, "geegaw\ngeegaw's\ngeegaws\ngeeing\ng"..., 8188) = 8188
+13640 read(3, "d's\ngodless\ngodlier\ngodliest\ngod"..., 8192) = 8192
+13640 write(4, "gob's\ngobs\ngod\ngodchild\ngodchild"..., 8188) = 8188
+13640 read(3, "\ngroves\ngrow\ngrower\ngrower's\ngro"..., 8192) = 8192
+13640 write(4, "group's\ngroups\ngrouse\ngroused\ngr"..., 8186) = 8186
+13640 read(3, "som's\nhansoms\nhaphazard\nhaphazar"..., 8192) = 8192
+13640 write(4, "hangmen\nhangnail\nhangnail's\nhang"..., 8185) = 8185
+13640 read(3, "eabouts\nhereafter\nhereafter's\nhe"..., 8192) = 8192
+13640 write(4, "herbalist\nherbalist's\nherbalists"..., 8190) = 8190
+13640 read(3, "horizon's\nhorizons\nhorizontal\nho"..., 8192) = 8192
+13640 write(4, "hopeful's\nhopefuls\nhopeless\nhope"..., 8188) = 8188
+13640 read(3, "nuses\nhypothalami\nhypothalamus\nh"..., 8192) = 8192
+13640 write(4, "hypocrisies\nhypocrisy\nhypocrisy'"..., 8189) = 8189
+13640 read(3, "ess\nimpressed\nimpresses\nimpressi"..., 8192) = 8192
+13640 write(4, "imprecation's\nimprecations\nimpre"..., 8189) = 8189
+13640 read(3, "\ninductive\ninducts\nindue\nindued\n"..., 8192) = 8192
+13640 write(4, "indorsement's\nindorsements\nindor"..., 8192) = 8192
+13640 read(3, "nce's\ninsolent\ninsolently\ninsole"..., 8192) = 8192
+13640 write(4, "insincere\ninsincerely\ninsincerit"..., 8190) = 8190
+13640 read(3, "s\nintravenouses\nintravenously\nin"..., 8192) = 8192
+13640 write(4, "intoxication\nintoxication's\nintr"..., 8189) = 8189
+13640 read(3, "nni's\njinnis\njinn's\njinns\njinric"..., 8192) = 8192
+13640 write(4, "jigsaw's\njigsaws\njihad\njihadist\n"..., 8190) = 8190
+13640 read(3, "\nknocks\nknockwurst\nknockwurst's\n"..., 8192) = 8192
+13640 write(4, "knightly\nknight's\nknights\nknit\nk"..., 8187) = 8187
+13640 read(3, "eftest\nleftie\nleftie's\nlefties\nl"..., 8192) = 8192
+13640 write(4, "lecture's\nlectures\nlecturing\nled"..., 8191) = 8191
+13640 read(3, "d\nlitigates\nlitigating\nlitigatio"..., 8192) = 8192
+13640 write(4, "lither\nlithest\nlithium\nlithium's"..., 8192) = 8192
+13640 read(3, "mackintosh\nmackintoshes\nmackinto"..., 8192) = 8192
+13640 write(4, "machination's\nmachinations\nmachi"..., 8181) = 8181
+13640 read(3, "rquetry's\nmarquis\nmarquise\nmarqu"..., 8192) = 8192
+13640 write(4, "marksmanship\nmarksmanship's\nmark"..., 8183) = 8183
+13640 read(3, "andise's\nmerchandises\nmerchandis"..., 8192) = 8192
+13640 write(4, "mentholated\nmenthol's\nmention\nme"..., 8188) = 8188
+13640 read(3, "cle's\nmiracles\nmiraculous\nmiracu"..., 8192) = 8192
+13640 write(4, "minuend\nminuend's\nminuends\nminue"..., 8189) = 8189
+13640 read(3, "onkey's\nmonkeys\nmonkeyshine\nmonk"..., 8192) = 8192
+13640 write(4, "money's\nmongeese\nmonger\nmongered"..., 8191) = 8191
+13640 read(3, "pal's\nmunicipals\nmunificence\nmun"..., 8192) = 8192
+13640 write(4, "mummification\nmummification's\nmu"..., 8190) = 8190
+13640 read(3, "\nnewborn\nnewborn's\nnewborns\nnewc"..., 8192) = 8192
+13640 write(4, "neutral\nneutrality\nneutrality's\n"..., 8191) = 8191
+13640 read(3, "mbskull's\nnumbskulls\nnumeracy\nnu"..., 8192) = 8192
+13640 write(4, "nuggets\nnuisance\nnuisance's\nnuis"..., 8191) = 8191
+13640 read(3, "rtunities\nopportunity\nopportunit"..., 8192) = 8192
+13640 write(4, "ophthalmology's\nopiate\nopiate's\n"..., 8181) = 8181
+13640 read(3, "erdrive\noverdrive's\noverdue\nover"..., 8192) = 8192
+13640 write(4, "overcooking\novercooks\novercrowd\n"..., 8188) = 8188
+13640 read(3, "l\npapa's\npapas\npapaw\npapaw's\npap"..., 8192) = 8192
+13640 write(4, "pantheist's\npantheists\npantheon\n"..., 8185) = 8185
+13640 read(3, "anut\npeanut's\npeanuts\npear\npearl"..., 8192) = 8192
+13640 write(4, "peaceful\npeacefully\npeacefulness"..., 8182) = 8182
+13640 read(3, "ns\nperversity\nperversity's\nperve"..., 8192) = 8192
+13640 write(4, "pertinence\npertinence's\npertinen"..., 8190) = 8190
+13640 read(3, "its\npipped\npippin\npipping\npippin"..., 8192) = 8192
+13640 write(4, "pinstriped\npinstripe's\npinstripe"..., 8187) = 8187
+13640 read(3, "polliwogs\npoll's\npolls\npollster\n"..., 8192) = 8192
+13640 write(4, "politician\npolitician's\npolitici"..., 8189) = 8189
+13640 read(3, "recludes\nprecluding\npreclusion\np"..., 8192) = 8192
+13640 write(4, "precipice\nprecipice's\nprecipices"..., 8188) = 8188
+13640 read(3, "lematic\nproblematical\nproblemati"..., 8192) = 8192
+13640 write(4, "prizefight's\nprizefights\nprize's"..., 8191) = 8191
+13640 read(3, "ntial\nprovidentially\nprovidently"..., 8192) = 8192
+13640 write(4, "protrudes\nprotruding\nprotrusion\n"..., 8191) = 8191
+13640 read(3, "\nquartos\nquart's\nquarts\nquartz\nq"..., 8192) = 8192
+13640 write(4, "quarterback\nquarterbacked\nquarte"..., 8189) = 8189
+13640 read(3, "reactor's\nreactors\nreacts\nread\nr"..., 8192) = 8192
+13640 write(4, "ray\nrayon\nrayon's\nray's\nrays\nraz"..., 8188) = 8188
+13640 read(3, "dresses\nredressing\nredress's\nred"..., 8192) = 8192
+13640 write(4, "redistricted\nredistricting\nredis"..., 8184) = 8184
+13640 read(3, "'s\nremnants\nremodel\nremodeled\nre"..., 8192) = 8192
+13640 write(4, "remembers\nremembrance\nremembranc"..., 8185) = 8185
+13640 read(3, "ss\nrestlessly\nrestlessness\nrestl"..., 8192) = 8192
+13640 write(4, "restarts\nrestate\nrestated\nrestat"..., 8188) = 8188
+13640 read(3, "ripostes\nriposting\nripped\nripper"..., 8192) = 8192
+13640 write(4, "ringmaster\nringmaster's\nringmast"..., 8189) = 8189
+13640 read(3, "safeness's\nsafer\nsafe's\nsafes\nsa"..., 8192) = 8192
+13640 write(4, "sacs\nsad\nsadden\nsaddened\nsaddeni"..., 8184) = 8184
+13640 read(3, "\nschlemiel\nschlemiel's\nschlemiel"..., 8192) = 8192
+13640 write(4, "schedulers\nschedule's\nschedules\n"..., 8189) = 8189
+13640 read(3, "ments\nsegregate\nsegregated\nsegre"..., 8192) = 8192
+13640 write(4, "seeker's\nseekers\nseeking\nseeks\ns"..., 8189) = 8189
+13640 read(3, "eds\nsheen\nsheen's\nsheep\nsheepdog"..., 8192) = 8192
+13640 write(4, "shatters\nshave\nshaved\nshaven\nsha"..., 8188) = 8188
+13640 read(3, "antly\nsignification\nsignificatio"..., 8192) = 8192
+13640 write(4, "sightseeing\nsightseeing's\nsights"..., 8184) = 8184
+13640 read(3, "loped\nslope's\nslopes\nsloping\nslo"..., 8192) = 8192
+13640 write(4, "slipperiness\nslipperiness's\nslip"..., 8183) = 8183
+13640 read(3, "litaire\nsolitaire's\nsolitaires\ns"..., 8192) = 8192
+13640 write(4, "solicitations\nsolicited\nsoliciti"..., 8187) = 8187
+13640 read(3, "est\nspitefully\nspitefulness\nspit"..., 8192) = 8192
+13640 write(4, "spiraled\nspiraling\nspiralled\nspi"..., 8188) = 8188
+13640 read(3, "tatehouses\nstateless\nstatelier\ns"..., 8192) = 8192
+13640 write(4, "starlight's\nstarling\nstarling's\n"..., 8187) = 8187
+13640 read(3, "amed\nstreamer\nstreamer's\nstreame"..., 8192) = 8192
+13640 write(4, "strategically\nstrategies\nstrateg"..., 8187) = 8187
+13640 read(3, "tion\nsuffocation's\nsuffragan\nsuf"..., 8192) = 8192
+13640 write(4, "suction's\nsuctions\nsudden\nsudden"..., 8190) = 8190
+13640 read(3, "eatshirt\nsweatshirt's\nsweatshirt"..., 8192) = 8192
+13640 write(4, "swastika\nswastika's\nswastikas\nsw"..., 8188) = 8188
+13640 read(3, "tatters\ntatting\ntatting's\ntattle"..., 8192) = 8192
+13640 write(4, "tartness\ntartness's\ntart's\ntarts"..., 8181) = 8181
+13640 read(3, "therapist's\ntherapists\ntherapy\nt"..., 8192) = 8192
+13640 write(4, "thenceforward\nthen's\ntheocracies"..., 8187) = 8187
+13640 read(3, "toils\ntoilsome\ntoke\ntoked\ntoken\n"..., 8192) = 8192
+13640 write(4, "toddle's\ntoddles\ntoddling\ntoddy\n"..., 8185) = 8185
+13640 read(3, "ransphobia\ntransphobia's\ntransph"..., 8192) = 8192
+13640 write(4, "transmigration\ntransmigration's\n"..., 8186) = 8186
+13640 read(3, "\ntuna\ntuna's\ntunas\ntundra\ntundra"..., 8192) = 8192
+13640 write(4, "tucker's\ntuckers\ntucking\ntuck's\n"..., 8192) = 8192
+13640 read(3, "lothing\nunderclothing's\nundercoa"..., 8192) = 8192
+13640 write(4, "underachiever\nunderachiever's\nun"..., 8189) = 8189
+13640 read(3, "al\nunprofitable\nunpromising\nunpr"..., 8192) = 8192
+13640 write(4, "unpalatable\nunparalleled\nunpardo"..., 8191) = 8191
+13640 read(3, "nishes\nvanishing\nvanishings\nvani"..., 8192) = 8192
+13640 write(4, "valorous\nvalor's\nvaluable\nvaluab"..., 8185) = 8185
+13640 read(3, "zor's\nvizors\nvocabularies\nvocabu"..., 8192) = 8192
+13640 write(4, "vitiating\nvitiation\nvitiation's\n"..., 8185) = 8185
+13640 read(3, "ls\nweather\nweathercock\nweatherco"..., 8192) = 8192
+13640 write(4, "weakens\nweaker\nweakest\nweakfish\n"..., 8192) = 8192
+13640 read(3, "wing\nwinnows\nwino\nwino's\nwinos\nw"..., 8192) = 8192
+13640 write(4, "windsurfed\nwindsurfing\nwindsurfi"..., 8187) = 8187
+13640 read(3, "ngs\nyield's\nyields\nyip\nyipped\nyi"..., 8192) = 2044
+13640 read(3, "", 8192)                 = 0
+13640 write(4, "year's\nyears\nyea's\nyeas\nyeast\nye"..., 2528) = 2528
+13640 close(4)                          = 0
+13640 close(3)                          = 0
+13640 openat(AT_FDCWD, "/usr/share/dict/words", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=985084, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec66b0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 openat(AT_FDCWD, "files/text5meg.txt", O_WRONLY|O_CREAT|O_TRUNC|O_CLOEXEC, 0666) = 4
+13640 newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(4, TCGETS, 0x7ffcd0ec66b0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(4, 0, SEEK_CUR)             = 0
+13640 lseek(4, 0, SEEK_CUR)             = 0
+13640 read(3, "A\nAA\nAAA\nAA's\nAB\nABC\nABC's\nABCs\n"..., 8192) = 8192
+13640 read(3, "a\nApalachicola's\nApatosaurus\nApe"..., 8192) = 8192
+13640 write(4, "A\nAA\nAAA\nAA's\nAB\nABC\nABC's\nABCs\n"..., 8181) = 8181
+13640 write(4, "Apalachicola\nApalachicola's\nApat"..., 8191) = 8191
+13640 read(3, "Beatlemania's\nBeatles\nBeatles's\n"..., 8192) = 8192
+13640 write(4, "Beatlemania\nBeatlemania's\nBeatle"..., 8190) = 8190
+13640 read(3, "es\nBrowning\nBrowning's\nBrown's\nB"..., 8192) = 8192
+13640 write(4, "Brownie\nBrownies\nBrowning\nBrowni"..., 8192) = 8192
+13640 read(3, "lotte's\nCharlottesville\nCharlott"..., 8192) = 8192
+13640 write(4, "Charlotte\nCharlotte's\nCharlottes"..., 8189) = 8189
+13640 read(3, "Crookes's\nCrosby\nCrosby's\nCross\n"..., 8192) = 8192
+13640 write(4, "Cronus's\nCrookes\nCrookes's\nCrosb"..., 8189) = 8189
+13640 read(3, "na's\nDvor\303\241k\nDvor\303\241k's\nDwayne\nDw"..., 8192) = 8192
+13640 write(4, "Duvalier's\nDvina\nDvina's\nDvor\303\241k"..., 8183) = 8183
+13640 read(3, "'s\nFizeau\nFizeau's\nFla\nFlagstaff"..., 8192) = 8192
+13640 write(4, "Fitzpatrick's\nFitzroy\nFitzroy's\n"..., 8192) = 8192
+13640 read(3, "l's\nGrammy\nGrammy's\nGrampians\nGr"..., 8192) = 8192
+13640 write(4, "Grahame's\nGraham's\nGrail\nGrail's"..., 8188) = 8188
+13640 read(3, "er\nHofstadter's\nHogan\nHogan's\nHo"..., 8192) = 8192
+13640 write(4, "Hoffman\nHoffman's\nHoff's\nHofstad"..., 8189) = 8189
+13640 read(3, "in\nJilin's\nJill\nJillian\nJillian'"..., 8192) = 8192
+13640 write(4, "Jezebel's\nJezebels\nJidda\nJidda's"..., 8186) = 8186
+13640 read(3, "s\nLachesis's\nLacy\nLacy's\nLadoga\n"..., 8192) = 8192
+13640 write(4, "Labrador's\nLabradors\nLacey\nLacey"..., 8187) = 8187
+13640 read(3, "nald\nMacDonald's\nMacLeish\nMacLei"..., 8192) = 8192
+13640 write(4, "MacArthur\nMacArthur's\nMacBride\nM"..., 8183) = 8183
+13640 read(3, "\nMelinda\nMelinda's\nMelisa\nMelisa"..., 8192) = 8192
+13640 write(4, "Melchior's\nMelchizedek\nMelchized"..., 8190) = 8190
+13640 read(3, "FW\nNT\nNV\nNVIDIA\nNVIDIA's\nNW\nNWT\n"..., 8192) = 8192
+13640 write(4, "NHL's\nNIMBY\nNJ\nNM\nNORAD\nNORAD's\n"..., 8188) = 8188
+13640 read(3, "s\nOuija\nOuija's\nOvid\nOvid's\nOwen"..., 8192) = 8192
+13640 write(4, "Ottawas\nOtto\nOttoman\nOttoman's\nO"..., 8189) = 8189
+13640 read(3, "ce's\nPres\nPresbyterian\nPresbyter"..., 8192) = 8192
+13640 write(4, "Preminger's\nPremyslid\nPremyslid'"..., 8189) = 8189
+13640 read(3, "osicrucian\nRosicrucian's\nRosie\nR"..., 8192) = 8192
+13640 write(4, "Rosendo\nRosendo's\nRosenzweig\nRos"..., 8188) = 8188
+13640 read(3, "\nSheena's\nSheetrock\nSheetrock's\n"..., 8192) = 8192
+13640 write(4, "Shea\nShea's\nSheba\nSheba's\nShebel"..., 8184) = 8184
+13640 read(3, "acuse's\nSyria\nSyriac\nSyriac's\nSy"..., 8192) = 8192
+13640 write(4, "Sylvester\nSylvester's\nSylvia\nSyl"..., 8192) = 8192
+13640 read(3, "\nTyndale\nTyndale's\nTyndall\nTynda"..., 8192) = 8192
+13640 write(4, "Twitter's\nTwizzlers\nTwizzlers's\n"..., 8189) = 8189
+13640 read(3, "g's\nWilliamson\nWilliamson's\nWill"..., 8192) = 8192
+13640 write(4, "Willa's\nWillemstad\nWillemstad's\n"..., 8186) = 8186
+13640 read(3, "urdity\nabsurdity's\nabsurdly\nabun"..., 8192) = 8192
+13640 write(4, "abstruse\nabstrusely\nabstruseness"..., 8187) = 8187
+13640 read(3, "ntages\nadvantaging\nadvent\nadvent"..., 8192) = 8192
+13640 write(4, "advance's\nadvances\nadvancing\nadv"..., 8189) = 8189
+13640 read(3, "ion's\naltercations\naltered\nalter"..., 8192) = 8192
+13640 write(4, "alt\naltar\naltar's\naltars\nalter\na"..., 8186) = 8186
+13640 read(3, "ticking\nanticlimactic\nanticlimax"..., 8192) = 8192
+13640 write(4, "anticipated\nanticipates\nanticipa"..., 8190) = 8190
+13640 read(3, "s\narrange\narranged\narrangement\na"..., 8192) = 8192
+13640 write(4, "arpeggio\narpeggio's\narpeggios\nar"..., 8188) = 8188
+13640 read(3, "uthenticated\nauthenticates\nauthe"..., 8192) = 8192
+13640 write(4, "austere\nausterely\nausterer\nauste"..., 8191) = 8191
+13640 read(3, "y\nbaptistry's\nbaptists\nbaptize\nb"..., 8192) = 8192
+13640 write(4, "baobabs\nbaptism\nbaptismal\nbaptis"..., 8189) = 8189
+13640 read(3, "\nbenchmark\nbenchmark's\nbenchmark"..., 8192) = 8192
+13640 write(4, "beltways\nbelying\nbemoan\nbemoaned"..., 8192) = 8192
+13640 read(3, "s\nbleachers\nbleaches\nbleaching\nb"..., 8192) = 8192
+13640 write(4, "blazers\nblaze's\nblazes\nblazing\nb"..., 8191) = 8191
+13640 read(3, "both\nbother\nbothered\nbothering\nb"..., 8192) = 8192
+13640 write(4, "bosun's\nbosuns\nbot\nbotanical\nbot"..., 8191) = 8191
+13640 read(3, "buccaneer\nbuccaneered\nbuccaneeri"..., 8192) = 8192
+13640 write(4, "brute\nbrute's\nbrutes\nbrutish\nbru"..., 8190) = 8190
+13640 read(3, "alibration's\ncalibrations\ncalibr"..., 8192) = 8192
+13640 write(4, "calf's\ncalfs\ncalfskin\ncalfskin's"..., 8189) = 8189
+13640 read(3, "s\ncartridge\ncartridge's\ncartridg"..., 8192) = 8192
+13640 write(4, "cartography's\ncarton\ncarton's\nca"..., 8188) = 8188
+13640 read(3, "ors\nchancel's\nchancels\nchancerie"..., 8192) = 8192
+13640 write(4, "championships\nchamp's\nchamps\ncha"..., 8180) = 8180
+13640 read(3, "s\nch\303\242teaux\nch\303\242telaine\nch\303\242tela"..., 8192) = 8192
+13640 write(4, "chronometer's\nchronometers\nchrys"..., 8190) = 8190
+13640 read(3, "ng\nclueless\nclue's\nclues\ncluing\n"..., 8192) = 8192
+13640 write(4, "clubbing\nclubfeet\nclubfoot\nclubf"..., 8187) = 8187
+13640 read(3, "sar's\ncommissars\ncommissary\ncomm"..., 8192) = 8192
+13640 write(4, "commiserates\ncommiserating\ncommi"..., 8192) = 8192
+13640 read(3, "\nconfetti\nconfetti's\nconfidant\nc"..., 8192) = 8192
+13640 write(4, "confessedly\nconfesses\nconfessing"..., 8186) = 8186
+13640 read(3, "actor\ncontractor's\ncontractors\nc"..., 8192) = 8192
+13640 write(4, "contraception's\ncontraceptive\nco"..., 8185) = 8185
+13640 read(3, "n\ncouncilor\ncouncilor's\ncouncilo"..., 8192) = 8192
+13640 write(4, "cougar's\ncougars\ncough\ncoughed\nc"..., 8190) = 8190
+13640 read(3, "king\ncrook's\ncrooks\ncroon\ncroone"..., 8192) = 8192
+13640 write(4, "crofts\ncroissant\ncroissant's\ncro"..., 8188) = 8188
+13640 read(3, "g\ndamn's\ndamns\ndamp\ndamped\ndampe"..., 8192) = 8192
+13640 write(4, "damaging\ndamask\ndamasked\ndamaski"..., 8188) = 8188
+13640 read(3, "tes\ndeflating\ndeflation\ndeflatio"..., 8192) = 8192
+13640 write(4, "definer's\ndefiners\ndefines\ndefin"..., 8192) = 8192
+13640 read(3, "s\ndervish\ndervishes\ndervish's\nde"..., 8192) = 8192
+13640 write(4, "derogate\nderogated\nderogates\nder"..., 8188) = 8188
+13640 read(3, "utives\ndimly\ndimmed\ndimmer\ndimme"..., 8192) = 8192
+13640 write(4, "dime's\ndimes\ndiminish\ndiminished"..., 8187) = 8187
+13640 read(3, "loyalty\ndisloyalty's\ndismal\ndism"..., 8192) = 8192
+13640 write(4, "dislike's\ndislikes\ndisliking\ndis"..., 8187) = 8187
+13640 read(3, "ing\ndomestication\ndomestication'"..., 8192) = 8192
+13640 write(4, "dolorous\ndolphin\ndolphin's\ndolph"..., 8189) = 8189
+13640 read(3, "durability's\ndurable\ndurably\ndur"..., 8192) = 8192
+13640 write(4, "duping\nduplex\nduplexes\nduplex's\n"..., 8188) = 8188
+13640 read(3, "ongate\nelongated\nelongates\nelong"..., 8192) = 8192
+13640 write(4, "elk's\nelks\nell\nellipse\nellipse's"..., 8189) = 8189
+13640 read(3, "g\nentails\nentangle\nentangled\nent"..., 8192) = 8192
+13640 write(4, "ensigns\nenslave\nenslaved\nenslave"..., 8185) = 8185
+13640 read(3, "vidence\nevidenced\nevidence's\nevi"..., 8192) = 8192
+13640 write(4, "everlastings\nevermore\nevery\never"..., 8192) = 8192
+13640 read(3, "h\nextinguishable\nextinguished\nex"..., 8192) = 8192
+13640 write(4, "extermination's\nexterminations\ne"..., 8187) = 8187
+13640 read(3, "ships\nfell's\nfells\nfelon\nfelonie"..., 8192) = 8192
+13640 write(4, "feisty\nfeldspar\nfeldspar's\nfelic"..., 8190) = 8190
+13640 read(3, "lashily\nflashiness\nflashiness's\n"..., 8192) = 8192
+13640 write(4, "flared\nflare's\nflares\nflaring\nfl"..., 8189) = 8189
+13640 read(3, "\nforeign\nforeigner\nforeigner's\nf"..., 8192) = 8192
+13640 write(4, "foregather\nforegathered\nforegath"..., 8186) = 8186
+13640 read(3, "frothier\nfrothiest\nfrothing\nfrot"..., 8192) = 8192
+13640 write(4, "front's\nfronts\nfrost\nfrostbit\nfr"..., 8188) = 8188
+13640 read(3, "s\ngeldings\ngelds\ngelid\ngelled\nge"..., 8192) = 8192
+13640 write(4, "geegaw\ngeegaw's\ngeegaws\ngeeing\ng"..., 8188) = 8188
+13640 read(3, "d's\ngodless\ngodlier\ngodliest\ngod"..., 8192) = 8192
+13640 write(4, "gob's\ngobs\ngod\ngodchild\ngodchild"..., 8188) = 8188
+13640 read(3, "\ngroves\ngrow\ngrower\ngrower's\ngro"..., 8192) = 8192
+13640 write(4, "group's\ngroups\ngrouse\ngroused\ngr"..., 8186) = 8186
+13640 read(3, "som's\nhansoms\nhaphazard\nhaphazar"..., 8192) = 8192
+13640 write(4, "hangmen\nhangnail\nhangnail's\nhang"..., 8185) = 8185
+13640 read(3, "eabouts\nhereafter\nhereafter's\nhe"..., 8192) = 8192
+13640 write(4, "herbalist\nherbalist's\nherbalists"..., 8190) = 8190
+13640 read(3, "horizon's\nhorizons\nhorizontal\nho"..., 8192) = 8192
+13640 write(4, "hopeful's\nhopefuls\nhopeless\nhope"..., 8188) = 8188
+13640 read(3, "nuses\nhypothalami\nhypothalamus\nh"..., 8192) = 8192
+13640 write(4, "hypocrisies\nhypocrisy\nhypocrisy'"..., 8189) = 8189
+13640 read(3, "ess\nimpressed\nimpresses\nimpressi"..., 8192) = 8192
+13640 write(4, "imprecation's\nimprecations\nimpre"..., 8189) = 8189
+13640 read(3, "\ninductive\ninducts\nindue\nindued\n"..., 8192) = 8192
+13640 write(4, "indorsement's\nindorsements\nindor"..., 8192) = 8192
+13640 read(3, "nce's\ninsolent\ninsolently\ninsole"..., 8192) = 8192
+13640 write(4, "insincere\ninsincerely\ninsincerit"..., 8190) = 8190
+13640 read(3, "s\nintravenouses\nintravenously\nin"..., 8192) = 8192
+13640 write(4, "intoxication\nintoxication's\nintr"..., 8189) = 8189
+13640 read(3, "nni's\njinnis\njinn's\njinns\njinric"..., 8192) = 8192
+13640 write(4, "jigsaw's\njigsaws\njihad\njihadist\n"..., 8190) = 8190
+13640 read(3, "\nknocks\nknockwurst\nknockwurst's\n"..., 8192) = 8192
+13640 write(4, "knightly\nknight's\nknights\nknit\nk"..., 8187) = 8187
+13640 read(3, "eftest\nleftie\nleftie's\nlefties\nl"..., 8192) = 8192
+13640 write(4, "lecture's\nlectures\nlecturing\nled"..., 8191) = 8191
+13640 read(3, "d\nlitigates\nlitigating\nlitigatio"..., 8192) = 8192
+13640 write(4, "lither\nlithest\nlithium\nlithium's"..., 8192) = 8192
+13640 read(3, "mackintosh\nmackintoshes\nmackinto"..., 8192) = 8192
+13640 write(4, "machination's\nmachinations\nmachi"..., 8181) = 8181
+13640 read(3, "rquetry's\nmarquis\nmarquise\nmarqu"..., 8192) = 8192
+13640 write(4, "marksmanship\nmarksmanship's\nmark"..., 8183) = 8183
+13640 read(3, "andise's\nmerchandises\nmerchandis"..., 8192) = 8192
+13640 write(4, "mentholated\nmenthol's\nmention\nme"..., 8188) = 8188
+13640 read(3, "cle's\nmiracles\nmiraculous\nmiracu"..., 8192) = 8192
+13640 write(4, "minuend\nminuend's\nminuends\nminue"..., 8189) = 8189
+13640 read(3, "onkey's\nmonkeys\nmonkeyshine\nmonk"..., 8192) = 8192
+13640 write(4, "money's\nmongeese\nmonger\nmongered"..., 8191) = 8191
+13640 read(3, "pal's\nmunicipals\nmunificence\nmun"..., 8192) = 8192
+13640 write(4, "mummification\nmummification's\nmu"..., 8190) = 8190
+13640 read(3, "\nnewborn\nnewborn's\nnewborns\nnewc"..., 8192) = 8192
+13640 write(4, "neutral\nneutrality\nneutrality's\n"..., 8191) = 8191
+13640 read(3, "mbskull's\nnumbskulls\nnumeracy\nnu"..., 8192) = 8192
+13640 write(4, "nuggets\nnuisance\nnuisance's\nnuis"..., 8191) = 8191
+13640 read(3, "rtunities\nopportunity\nopportunit"..., 8192) = 8192
+13640 write(4, "ophthalmology's\nopiate\nopiate's\n"..., 8181) = 8181
+13640 read(3, "erdrive\noverdrive's\noverdue\nover"..., 8192) = 8192
+13640 write(4, "overcooking\novercooks\novercrowd\n"..., 8188) = 8188
+13640 read(3, "l\npapa's\npapas\npapaw\npapaw's\npap"..., 8192) = 8192
+13640 write(4, "pantheist's\npantheists\npantheon\n"..., 8185) = 8185
+13640 read(3, "anut\npeanut's\npeanuts\npear\npearl"..., 8192) = 8192
+13640 write(4, "peaceful\npeacefully\npeacefulness"..., 8182) = 8182
+13640 read(3, "ns\nperversity\nperversity's\nperve"..., 8192) = 8192
+13640 write(4, "pertinence\npertinence's\npertinen"..., 8190) = 8190
+13640 read(3, "its\npipped\npippin\npipping\npippin"..., 8192) = 8192
+13640 write(4, "pinstriped\npinstripe's\npinstripe"..., 8187) = 8187
+13640 read(3, "polliwogs\npoll's\npolls\npollster\n"..., 8192) = 8192
+13640 write(4, "politician\npolitician's\npolitici"..., 8189) = 8189
+13640 read(3, "recludes\nprecluding\npreclusion\np"..., 8192) = 8192
+13640 write(4, "precipice\nprecipice's\nprecipices"..., 8188) = 8188
+13640 read(3, "lematic\nproblematical\nproblemati"..., 8192) = 8192
+13640 write(4, "prizefight's\nprizefights\nprize's"..., 8191) = 8191
+13640 read(3, "ntial\nprovidentially\nprovidently"..., 8192) = 8192
+13640 write(4, "protrudes\nprotruding\nprotrusion\n"..., 8191) = 8191
+13640 read(3, "\nquartos\nquart's\nquarts\nquartz\nq"..., 8192) = 8192
+13640 write(4, "quarterback\nquarterbacked\nquarte"..., 8189) = 8189
+13640 read(3, "reactor's\nreactors\nreacts\nread\nr"..., 8192) = 8192
+13640 write(4, "ray\nrayon\nrayon's\nray's\nrays\nraz"..., 8188) = 8188
+13640 read(3, "dresses\nredressing\nredress's\nred"..., 8192) = 8192
+13640 write(4, "redistricted\nredistricting\nredis"..., 8184) = 8184
+13640 read(3, "'s\nremnants\nremodel\nremodeled\nre"..., 8192) = 8192
+13640 write(4, "remembers\nremembrance\nremembranc"..., 8185) = 8185
+13640 read(3, "ss\nrestlessly\nrestlessness\nrestl"..., 8192) = 8192
+13640 write(4, "restarts\nrestate\nrestated\nrestat"..., 8188) = 8188
+13640 read(3, "ripostes\nriposting\nripped\nripper"..., 8192) = 8192
+13640 write(4, "ringmaster\nringmaster's\nringmast"..., 8189) = 8189
+13640 read(3, "safeness's\nsafer\nsafe's\nsafes\nsa"..., 8192) = 8192
+13640 write(4, "sacs\nsad\nsadden\nsaddened\nsaddeni"..., 8184) = 8184
+13640 read(3, "\nschlemiel\nschlemiel's\nschlemiel"..., 8192) = 8192
+13640 write(4, "schedulers\nschedule's\nschedules\n"..., 8189) = 8189
+13640 read(3, "ments\nsegregate\nsegregated\nsegre"..., 8192) = 8192
+13640 write(4, "seeker's\nseekers\nseeking\nseeks\ns"..., 8189) = 8189
+13640 read(3, "eds\nsheen\nsheen's\nsheep\nsheepdog"..., 8192) = 8192
+13640 write(4, "shatters\nshave\nshaved\nshaven\nsha"..., 8188) = 8188
+13640 read(3, "antly\nsignification\nsignificatio"..., 8192) = 8192
+13640 write(4, "sightseeing\nsightseeing's\nsights"..., 8184) = 8184
+13640 read(3, "loped\nslope's\nslopes\nsloping\nslo"..., 8192) = 8192
+13640 write(4, "slipperiness\nslipperiness's\nslip"..., 8183) = 8183
+13640 read(3, "litaire\nsolitaire's\nsolitaires\ns"..., 8192) = 8192
+13640 write(4, "solicitations\nsolicited\nsoliciti"..., 8187) = 8187
+13640 read(3, "est\nspitefully\nspitefulness\nspit"..., 8192) = 8192
+13640 write(4, "spiraled\nspiraling\nspiralled\nspi"..., 8188) = 8188
+13640 read(3, "tatehouses\nstateless\nstatelier\ns"..., 8192) = 8192
+13640 write(4, "starlight's\nstarling\nstarling's\n"..., 8187) = 8187
+13640 read(3, "amed\nstreamer\nstreamer's\nstreame"..., 8192) = 8192
+13640 write(4, "strategically\nstrategies\nstrateg"..., 8187) = 8187
+13640 read(3, "tion\nsuffocation's\nsuffragan\nsuf"..., 8192) = 8192
+13640 write(4, "suction's\nsuctions\nsudden\nsudden"..., 8190) = 8190
+13640 read(3, "eatshirt\nsweatshirt's\nsweatshirt"..., 8192) = 8192
+13640 write(4, "swastika\nswastika's\nswastikas\nsw"..., 8188) = 8188
+13640 read(3, "tatters\ntatting\ntatting's\ntattle"..., 8192) = 8192
+13640 write(4, "tartness\ntartness's\ntart's\ntarts"..., 8181) = 8181
+13640 read(3, "therapist's\ntherapists\ntherapy\nt"..., 8192) = 8192
+13640 write(4, "thenceforward\nthen's\ntheocracies"..., 8187) = 8187
+13640 read(3, "toils\ntoilsome\ntoke\ntoked\ntoken\n"..., 8192) = 8192
+13640 write(4, "toddle's\ntoddles\ntoddling\ntoddy\n"..., 8185) = 8185
+13640 read(3, "ransphobia\ntransphobia's\ntransph"..., 8192) = 8192
+13640 write(4, "transmigration\ntransmigration's\n"..., 8186) = 8186
+13640 read(3, "\ntuna\ntuna's\ntunas\ntundra\ntundra"..., 8192) = 8192
+13640 write(4, "tucker's\ntuckers\ntucking\ntuck's\n"..., 8192) = 8192
+13640 read(3, "lothing\nunderclothing's\nundercoa"..., 8192) = 8192
+13640 write(4, "underachiever\nunderachiever's\nun"..., 8189) = 8189
+13640 read(3, "al\nunprofitable\nunpromising\nunpr"..., 8192) = 8192
+13640 write(4, "unpalatable\nunparalleled\nunpardo"..., 8191) = 8191
+13640 read(3, "nishes\nvanishing\nvanishings\nvani"..., 8192) = 8192
+13640 write(4, "valorous\nvalor's\nvaluable\nvaluab"..., 8185) = 8185
+13640 read(3, "zor's\nvizors\nvocabularies\nvocabu"..., 8192) = 8192
+13640 write(4, "vitiating\nvitiation\nvitiation's\n"..., 8185) = 8185
+13640 read(3, "ls\nweather\nweathercock\nweatherco"..., 8192) = 8192
+13640 write(4, "weakens\nweaker\nweakest\nweakfish\n"..., 8192) = 8192
+13640 read(3, "wing\nwinnows\nwino\nwino's\nwinos\nw"..., 8192) = 8192
+13640 write(4, "windsurfed\nwindsurfing\nwindsurfi"..., 8187) = 8187
+13640 read(3, "ngs\nyield's\nyields\nyip\nyipped\nyi"..., 8192) = 2044
+13640 read(3, "", 8192)                 = 0
+13640 write(4, "year's\nyears\nyea's\nyeas\nyeast\nye"..., 2528) = 2528
+13640 close(4)                          = 0
+13640 close(3)                          = 0
+13640 openat(AT_FDCWD, "/usr/share/dict/words", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=985084, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec66b0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 openat(AT_FDCWD, "files/text20meg.txt", O_WRONLY|O_CREAT|O_TRUNC|O_CLOEXEC, 0666) = 4
+13640 newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=0, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(4, TCGETS, 0x7ffcd0ec66b0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(4, 0, SEEK_CUR)             = 0
+13640 lseek(4, 0, SEEK_CUR)             = 0
+13640 read(3, "A\nAA\nAAA\nAA's\nAB\nABC\nABC's\nABCs\n"..., 8192) = 8192
+13640 read(3, "a\nApalachicola's\nApatosaurus\nApe"..., 8192) = 8192
+13640 write(4, "A\nAA\nAAA\nAA's\nAB\nABC\nABC's\nABCs\n"..., 8181) = 8181
+13640 write(4, "Apalachicola\nApalachicola's\nApat"..., 8191) = 8191
+13640 read(3, "Beatlemania's\nBeatles\nBeatles's\n"..., 8192) = 8192
+13640 write(4, "Beatlemania\nBeatlemania's\nBeatle"..., 8190) = 8190
+13640 read(3, "es\nBrowning\nBrowning's\nBrown's\nB"..., 8192) = 8192
+13640 write(4, "Brownie\nBrownies\nBrowning\nBrowni"..., 8192) = 8192
+13640 read(3, "lotte's\nCharlottesville\nCharlott"..., 8192) = 8192
+13640 write(4, "Charlotte\nCharlotte's\nCharlottes"..., 8189) = 8189
+13640 read(3, "Crookes's\nCrosby\nCrosby's\nCross\n"..., 8192) = 8192
+13640 write(4, "Cronus's\nCrookes\nCrookes's\nCrosb"..., 8189) = 8189
+13640 read(3, "na's\nDvor\303\241k\nDvor\303\241k's\nDwayne\nDw"..., 8192) = 8192
+13640 write(4, "Duvalier's\nDvina\nDvina's\nDvor\303\241k"..., 8183) = 8183
+13640 read(3, "'s\nFizeau\nFizeau's\nFla\nFlagstaff"..., 8192) = 8192
+13640 write(4, "Fitzpatrick's\nFitzroy\nFitzroy's\n"..., 8192) = 8192
+13640 read(3, "l's\nGrammy\nGrammy's\nGrampians\nGr"..., 8192) = 8192
+13640 write(4, "Grahame's\nGraham's\nGrail\nGrail's"..., 8188) = 8188
+13640 read(3, "er\nHofstadter's\nHogan\nHogan's\nHo"..., 8192) = 8192
+13640 write(4, "Hoffman\nHoffman's\nHoff's\nHofstad"..., 8189) = 8189
+13640 read(3, "in\nJilin's\nJill\nJillian\nJillian'"..., 8192) = 8192
+13640 write(4, "Jezebel's\nJezebels\nJidda\nJidda's"..., 8186) = 8186
+13640 read(3, "s\nLachesis's\nLacy\nLacy's\nLadoga\n"..., 8192) = 8192
+13640 write(4, "Labrador's\nLabradors\nLacey\nLacey"..., 8187) = 8187
+13640 read(3, "nald\nMacDonald's\nMacLeish\nMacLei"..., 8192) = 8192
+13640 write(4, "MacArthur\nMacArthur's\nMacBride\nM"..., 8183) = 8183
+13640 read(3, "\nMelinda\nMelinda's\nMelisa\nMelisa"..., 8192) = 8192
+13640 write(4, "Melchior's\nMelchizedek\nMelchized"..., 8190) = 8190
+13640 read(3, "FW\nNT\nNV\nNVIDIA\nNVIDIA's\nNW\nNWT\n"..., 8192) = 8192
+13640 write(4, "NHL's\nNIMBY\nNJ\nNM\nNORAD\nNORAD's\n"..., 8188) = 8188
+13640 read(3, "s\nOuija\nOuija's\nOvid\nOvid's\nOwen"..., 8192) = 8192
+13640 write(4, "Ottawas\nOtto\nOttoman\nOttoman's\nO"..., 8189) = 8189
+13640 read(3, "ce's\nPres\nPresbyterian\nPresbyter"..., 8192) = 8192
+13640 write(4, "Preminger's\nPremyslid\nPremyslid'"..., 8189) = 8189
+13640 read(3, "osicrucian\nRosicrucian's\nRosie\nR"..., 8192) = 8192
+13640 write(4, "Rosendo\nRosendo's\nRosenzweig\nRos"..., 8188) = 8188
+13640 read(3, "\nSheena's\nSheetrock\nSheetrock's\n"..., 8192) = 8192
+13640 write(4, "Shea\nShea's\nSheba\nSheba's\nShebel"..., 8184) = 8184
+13640 read(3, "acuse's\nSyria\nSyriac\nSyriac's\nSy"..., 8192) = 8192
+13640 write(4, "Sylvester\nSylvester's\nSylvia\nSyl"..., 8192) = 8192
+13640 read(3, "\nTyndale\nTyndale's\nTyndall\nTynda"..., 8192) = 8192
+13640 write(4, "Twitter's\nTwizzlers\nTwizzlers's\n"..., 8189) = 8189
+13640 read(3, "g's\nWilliamson\nWilliamson's\nWill"..., 8192) = 8192
+13640 write(4, "Willa's\nWillemstad\nWillemstad's\n"..., 8186) = 8186
+13640 read(3, "urdity\nabsurdity's\nabsurdly\nabun"..., 8192) = 8192
+13640 write(4, "abstruse\nabstrusely\nabstruseness"..., 8187) = 8187
+13640 read(3, "ntages\nadvantaging\nadvent\nadvent"..., 8192) = 8192
+13640 write(4, "advance's\nadvances\nadvancing\nadv"..., 8189) = 8189
+13640 read(3, "ion's\naltercations\naltered\nalter"..., 8192) = 8192
+13640 write(4, "alt\naltar\naltar's\naltars\nalter\na"..., 8186) = 8186
+13640 read(3, "ticking\nanticlimactic\nanticlimax"..., 8192) = 8192
+13640 write(4, "anticipated\nanticipates\nanticipa"..., 8190) = 8190
+13640 read(3, "s\narrange\narranged\narrangement\na"..., 8192) = 8192
+13640 write(4, "arpeggio\narpeggio's\narpeggios\nar"..., 8188) = 8188
+13640 read(3, "uthenticated\nauthenticates\nauthe"..., 8192) = 8192
+13640 write(4, "austere\nausterely\nausterer\nauste"..., 8191) = 8191
+13640 read(3, "y\nbaptistry's\nbaptists\nbaptize\nb"..., 8192) = 8192
+13640 write(4, "baobabs\nbaptism\nbaptismal\nbaptis"..., 8189) = 8189
+13640 read(3, "\nbenchmark\nbenchmark's\nbenchmark"..., 8192) = 8192
+13640 write(4, "beltways\nbelying\nbemoan\nbemoaned"..., 8192) = 8192
+13640 read(3, "s\nbleachers\nbleaches\nbleaching\nb"..., 8192) = 8192
+13640 write(4, "blazers\nblaze's\nblazes\nblazing\nb"..., 8191) = 8191
+13640 read(3, "both\nbother\nbothered\nbothering\nb"..., 8192) = 8192
+13640 write(4, "bosun's\nbosuns\nbot\nbotanical\nbot"..., 8191) = 8191
+13640 read(3, "buccaneer\nbuccaneered\nbuccaneeri"..., 8192) = 8192
+13640 write(4, "brute\nbrute's\nbrutes\nbrutish\nbru"..., 8190) = 8190
+13640 read(3, "alibration's\ncalibrations\ncalibr"..., 8192) = 8192
+13640 write(4, "calf's\ncalfs\ncalfskin\ncalfskin's"..., 8189) = 8189
+13640 read(3, "s\ncartridge\ncartridge's\ncartridg"..., 8192) = 8192
+13640 write(4, "cartography's\ncarton\ncarton's\nca"..., 8188) = 8188
+13640 read(3, "ors\nchancel's\nchancels\nchancerie"..., 8192) = 8192
+13640 write(4, "championships\nchamp's\nchamps\ncha"..., 8180) = 8180
+13640 read(3, "s\nch\303\242teaux\nch\303\242telaine\nch\303\242tela"..., 8192) = 8192
+13640 write(4, "chronometer's\nchronometers\nchrys"..., 8190) = 8190
+13640 read(3, "ng\nclueless\nclue's\nclues\ncluing\n"..., 8192) = 8192
+13640 write(4, "clubbing\nclubfeet\nclubfoot\nclubf"..., 8187) = 8187
+13640 read(3, "sar's\ncommissars\ncommissary\ncomm"..., 8192) = 8192
+13640 write(4, "commiserates\ncommiserating\ncommi"..., 8192) = 8192
+13640 read(3, "\nconfetti\nconfetti's\nconfidant\nc"..., 8192) = 8192
+13640 write(4, "confessedly\nconfesses\nconfessing"..., 8186) = 8186
+13640 read(3, "actor\ncontractor's\ncontractors\nc"..., 8192) = 8192
+13640 write(4, "contraception's\ncontraceptive\nco"..., 8185) = 8185
+13640 read(3, "n\ncouncilor\ncouncilor's\ncouncilo"..., 8192) = 8192
+13640 write(4, "cougar's\ncougars\ncough\ncoughed\nc"..., 8190) = 8190
+13640 read(3, "king\ncrook's\ncrooks\ncroon\ncroone"..., 8192) = 8192
+13640 write(4, "crofts\ncroissant\ncroissant's\ncro"..., 8188) = 8188
+13640 read(3, "g\ndamn's\ndamns\ndamp\ndamped\ndampe"..., 8192) = 8192
+13640 write(4, "damaging\ndamask\ndamasked\ndamaski"..., 8188) = 8188
+13640 read(3, "tes\ndeflating\ndeflation\ndeflatio"..., 8192) = 8192
+13640 write(4, "definer's\ndefiners\ndefines\ndefin"..., 8192) = 8192
+13640 read(3, "s\ndervish\ndervishes\ndervish's\nde"..., 8192) = 8192
+13640 write(4, "derogate\nderogated\nderogates\nder"..., 8188) = 8188
+13640 read(3, "utives\ndimly\ndimmed\ndimmer\ndimme"..., 8192) = 8192
+13640 write(4, "dime's\ndimes\ndiminish\ndiminished"..., 8187) = 8187
+13640 read(3, "loyalty\ndisloyalty's\ndismal\ndism"..., 8192) = 8192
+13640 write(4, "dislike's\ndislikes\ndisliking\ndis"..., 8187) = 8187
+13640 read(3, "ing\ndomestication\ndomestication'"..., 8192) = 8192
+13640 write(4, "dolorous\ndolphin\ndolphin's\ndolph"..., 8189) = 8189
+13640 read(3, "durability's\ndurable\ndurably\ndur"..., 8192) = 8192
+13640 write(4, "duping\nduplex\nduplexes\nduplex's\n"..., 8188) = 8188
+13640 read(3, "ongate\nelongated\nelongates\nelong"..., 8192) = 8192
+13640 write(4, "elk's\nelks\nell\nellipse\nellipse's"..., 8189) = 8189
+13640 read(3, "g\nentails\nentangle\nentangled\nent"..., 8192) = 8192
+13640 write(4, "ensigns\nenslave\nenslaved\nenslave"..., 8185) = 8185
+13640 read(3, "vidence\nevidenced\nevidence's\nevi"..., 8192) = 8192
+13640 write(4, "everlastings\nevermore\nevery\never"..., 8192) = 8192
+13640 read(3, "h\nextinguishable\nextinguished\nex"..., 8192) = 8192
+13640 write(4, "extermination's\nexterminations\ne"..., 8187) = 8187
+13640 read(3, "ships\nfell's\nfells\nfelon\nfelonie"..., 8192) = 8192
+13640 write(4, "feisty\nfeldspar\nfeldspar's\nfelic"..., 8190) = 8190
+13640 read(3, "lashily\nflashiness\nflashiness's\n"..., 8192) = 8192
+13640 write(4, "flared\nflare's\nflares\nflaring\nfl"..., 8189) = 8189
+13640 read(3, "\nforeign\nforeigner\nforeigner's\nf"..., 8192) = 8192
+13640 write(4, "foregather\nforegathered\nforegath"..., 8186) = 8186
+13640 read(3, "frothier\nfrothiest\nfrothing\nfrot"..., 8192) = 8192
+13640 write(4, "front's\nfronts\nfrost\nfrostbit\nfr"..., 8188) = 8188
+13640 read(3, "s\ngeldings\ngelds\ngelid\ngelled\nge"..., 8192) = 8192
+13640 write(4, "geegaw\ngeegaw's\ngeegaws\ngeeing\ng"..., 8188) = 8188
+13640 read(3, "d's\ngodless\ngodlier\ngodliest\ngod"..., 8192) = 8192
+13640 write(4, "gob's\ngobs\ngod\ngodchild\ngodchild"..., 8188) = 8188
+13640 read(3, "\ngroves\ngrow\ngrower\ngrower's\ngro"..., 8192) = 8192
+13640 write(4, "group's\ngroups\ngrouse\ngroused\ngr"..., 8186) = 8186
+13640 read(3, "som's\nhansoms\nhaphazard\nhaphazar"..., 8192) = 8192
+13640 write(4, "hangmen\nhangnail\nhangnail's\nhang"..., 8185) = 8185
+13640 read(3, "eabouts\nhereafter\nhereafter's\nhe"..., 8192) = 8192
+13640 write(4, "herbalist\nherbalist's\nherbalists"..., 8190) = 8190
+13640 read(3, "horizon's\nhorizons\nhorizontal\nho"..., 8192) = 8192
+13640 write(4, "hopeful's\nhopefuls\nhopeless\nhope"..., 8188) = 8188
+13640 read(3, "nuses\nhypothalami\nhypothalamus\nh"..., 8192) = 8192
+13640 write(4, "hypocrisies\nhypocrisy\nhypocrisy'"..., 8189) = 8189
+13640 read(3, "ess\nimpressed\nimpresses\nimpressi"..., 8192) = 8192
+13640 write(4, "imprecation's\nimprecations\nimpre"..., 8189) = 8189
+13640 read(3, "\ninductive\ninducts\nindue\nindued\n"..., 8192) = 8192
+13640 write(4, "indorsement's\nindorsements\nindor"..., 8192) = 8192
+13640 read(3, "nce's\ninsolent\ninsolently\ninsole"..., 8192) = 8192
+13640 write(4, "insincere\ninsincerely\ninsincerit"..., 8190) = 8190
+13640 read(3, "s\nintravenouses\nintravenously\nin"..., 8192) = 8192
+13640 write(4, "intoxication\nintoxication's\nintr"..., 8189) = 8189
+13640 read(3, "nni's\njinnis\njinn's\njinns\njinric"..., 8192) = 8192
+13640 write(4, "jigsaw's\njigsaws\njihad\njihadist\n"..., 8190) = 8190
+13640 read(3, "\nknocks\nknockwurst\nknockwurst's\n"..., 8192) = 8192
+13640 write(4, "knightly\nknight's\nknights\nknit\nk"..., 8187) = 8187
+13640 read(3, "eftest\nleftie\nleftie's\nlefties\nl"..., 8192) = 8192
+13640 write(4, "lecture's\nlectures\nlecturing\nled"..., 8191) = 8191
+13640 read(3, "d\nlitigates\nlitigating\nlitigatio"..., 8192) = 8192
+13640 write(4, "lither\nlithest\nlithium\nlithium's"..., 8192) = 8192
+13640 read(3, "mackintosh\nmackintoshes\nmackinto"..., 8192) = 8192
+13640 write(4, "machination's\nmachinations\nmachi"..., 8181) = 8181
+13640 read(3, "rquetry's\nmarquis\nmarquise\nmarqu"..., 8192) = 8192
+13640 write(4, "marksmanship\nmarksmanship's\nmark"..., 8183) = 8183
+13640 read(3, "andise's\nmerchandises\nmerchandis"..., 8192) = 8192
+13640 write(4, "mentholated\nmenthol's\nmention\nme"..., 8188) = 8188
+13640 read(3, "cle's\nmiracles\nmiraculous\nmiracu"..., 8192) = 8192
+13640 write(4, "minuend\nminuend's\nminuends\nminue"..., 8189) = 8189
+13640 read(3, "onkey's\nmonkeys\nmonkeyshine\nmonk"..., 8192) = 8192
+13640 write(4, "money's\nmongeese\nmonger\nmongered"..., 8191) = 8191
+13640 read(3, "pal's\nmunicipals\nmunificence\nmun"..., 8192) = 8192
+13640 write(4, "mummification\nmummification's\nmu"..., 8190) = 8190
+13640 read(3, "\nnewborn\nnewborn's\nnewborns\nnewc"..., 8192) = 8192
+13640 write(4, "neutral\nneutrality\nneutrality's\n"..., 8191) = 8191
+13640 read(3, "mbskull's\nnumbskulls\nnumeracy\nnu"..., 8192) = 8192
+13640 write(4, "nuggets\nnuisance\nnuisance's\nnuis"..., 8191) = 8191
+13640 read(3, "rtunities\nopportunity\nopportunit"..., 8192) = 8192
+13640 write(4, "ophthalmology's\nopiate\nopiate's\n"..., 8181) = 8181
+13640 read(3, "erdrive\noverdrive's\noverdue\nover"..., 8192) = 8192
+13640 write(4, "overcooking\novercooks\novercrowd\n"..., 8188) = 8188
+13640 read(3, "l\npapa's\npapas\npapaw\npapaw's\npap"..., 8192) = 8192
+13640 write(4, "pantheist's\npantheists\npantheon\n"..., 8185) = 8185
+13640 read(3, "anut\npeanut's\npeanuts\npear\npearl"..., 8192) = 8192
+13640 write(4, "peaceful\npeacefully\npeacefulness"..., 8182) = 8182
+13640 read(3, "ns\nperversity\nperversity's\nperve"..., 8192) = 8192
+13640 write(4, "pertinence\npertinence's\npertinen"..., 8190) = 8190
+13640 read(3, "its\npipped\npippin\npipping\npippin"..., 8192) = 8192
+13640 write(4, "pinstriped\npinstripe's\npinstripe"..., 8187) = 8187
+13640 read(3, "polliwogs\npoll's\npolls\npollster\n"..., 8192) = 8192
+13640 write(4, "politician\npolitician's\npolitici"..., 8189) = 8189
+13640 read(3, "recludes\nprecluding\npreclusion\np"..., 8192) = 8192
+13640 write(4, "precipice\nprecipice's\nprecipices"..., 8188) = 8188
+13640 read(3, "lematic\nproblematical\nproblemati"..., 8192) = 8192
+13640 write(4, "prizefight's\nprizefights\nprize's"..., 8191) = 8191
+13640 read(3, "ntial\nprovidentially\nprovidently"..., 8192) = 8192
+13640 write(4, "protrudes\nprotruding\nprotrusion\n"..., 8191) = 8191
+13640 read(3, "\nquartos\nquart's\nquarts\nquartz\nq"..., 8192) = 8192
+13640 write(4, "quarterback\nquarterbacked\nquarte"..., 8189) = 8189
+13640 read(3, "reactor's\nreactors\nreacts\nread\nr"..., 8192) = 8192
+13640 write(4, "ray\nrayon\nrayon's\nray's\nrays\nraz"..., 8188) = 8188
+13640 read(3, "dresses\nredressing\nredress's\nred"..., 8192) = 8192
+13640 write(4, "redistricted\nredistricting\nredis"..., 8184) = 8184
+13640 read(3, "'s\nremnants\nremodel\nremodeled\nre"..., 8192) = 8192
+13640 write(4, "remembers\nremembrance\nremembranc"..., 8185) = 8185
+13640 read(3, "ss\nrestlessly\nrestlessness\nrestl"..., 8192) = 8192
+13640 write(4, "restarts\nrestate\nrestated\nrestat"..., 8188) = 8188
+13640 read(3, "ripostes\nriposting\nripped\nripper"..., 8192) = 8192
+13640 write(4, "ringmaster\nringmaster's\nringmast"..., 8189) = 8189
+13640 read(3, "safeness's\nsafer\nsafe's\nsafes\nsa"..., 8192) = 8192
+13640 write(4, "sacs\nsad\nsadden\nsaddened\nsaddeni"..., 8184) = 8184
+13640 read(3, "\nschlemiel\nschlemiel's\nschlemiel"..., 8192) = 8192
+13640 write(4, "schedulers\nschedule's\nschedules\n"..., 8189) = 8189
+13640 read(3, "ments\nsegregate\nsegregated\nsegre"..., 8192) = 8192
+13640 write(4, "seeker's\nseekers\nseeking\nseeks\ns"..., 8189) = 8189
+13640 read(3, "eds\nsheen\nsheen's\nsheep\nsheepdog"..., 8192) = 8192
+13640 write(4, "shatters\nshave\nshaved\nshaven\nsha"..., 8188) = 8188
+13640 read(3, "antly\nsignification\nsignificatio"..., 8192) = 8192
+13640 write(4, "sightseeing\nsightseeing's\nsights"..., 8184) = 8184
+13640 read(3, "loped\nslope's\nslopes\nsloping\nslo"..., 8192) = 8192
+13640 write(4, "slipperiness\nslipperiness's\nslip"..., 8183) = 8183
+13640 read(3, "litaire\nsolitaire's\nsolitaires\ns"..., 8192) = 8192
+13640 write(4, "solicitations\nsolicited\nsoliciti"..., 8187) = 8187
+13640 read(3, "est\nspitefully\nspitefulness\nspit"..., 8192) = 8192
+13640 write(4, "spiraled\nspiraling\nspiralled\nspi"..., 8188) = 8188
+13640 read(3, "tatehouses\nstateless\nstatelier\ns"..., 8192) = 8192
+13640 write(4, "starlight's\nstarling\nstarling's\n"..., 8187) = 8187
+13640 read(3, "amed\nstreamer\nstreamer's\nstreame"..., 8192) = 8192
+13640 write(4, "strategically\nstrategies\nstrateg"..., 8187) = 8187
+13640 read(3, "tion\nsuffocation's\nsuffragan\nsuf"..., 8192) = 8192
+13640 write(4, "suction's\nsuctions\nsudden\nsudden"..., 8190) = 8190
+13640 read(3, "eatshirt\nsweatshirt's\nsweatshirt"..., 8192) = 8192
+13640 write(4, "swastika\nswastika's\nswastikas\nsw"..., 8188) = 8188
+13640 read(3, "tatters\ntatting\ntatting's\ntattle"..., 8192) = 8192
+13640 write(4, "tartness\ntartness's\ntart's\ntarts"..., 8181) = 8181
+13640 read(3, "therapist's\ntherapists\ntherapy\nt"..., 8192) = 8192
+13640 write(4, "thenceforward\nthen's\ntheocracies"..., 8187) = 8187
+13640 read(3, "toils\ntoilsome\ntoke\ntoked\ntoken\n"..., 8192) = 8192
+13640 write(4, "toddle's\ntoddles\ntoddling\ntoddy\n"..., 8185) = 8185
+13640 read(3, "ransphobia\ntransphobia's\ntransph"..., 8192) = 8192
+13640 write(4, "transmigration\ntransmigration's\n"..., 8186) = 8186
+13640 read(3, "\ntuna\ntuna's\ntunas\ntundra\ntundra"..., 8192) = 8192
+13640 write(4, "tucker's\ntuckers\ntucking\ntuck's\n"..., 8192) = 8192
+13640 read(3, "lothing\nunderclothing's\nundercoa"..., 8192) = 8192
+13640 write(4, "underachiever\nunderachiever's\nun"..., 8189) = 8189
+13640 read(3, "al\nunprofitable\nunpromising\nunpr"..., 8192) = 8192
+13640 write(4, "unpalatable\nunparalleled\nunpardo"..., 8191) = 8191
+13640 read(3, "nishes\nvanishing\nvanishings\nvani"..., 8192) = 8192
+13640 write(4, "valorous\nvalor's\nvaluable\nvaluab"..., 8185) = 8185
+13640 read(3, "zor's\nvizors\nvocabularies\nvocabu"..., 8192) = 8192
+13640 write(4, "vitiating\nvitiation\nvitiation's\n"..., 8185) = 8185
+13640 read(3, "ls\nweather\nweathercock\nweatherco"..., 8192) = 8192
+13640 write(4, "weakens\nweaker\nweakest\nweakfish\n"..., 8192) = 8192
+13640 read(3, "wing\nwinnows\nwino\nwino's\nwinos\nw"..., 8192) = 8192
+13640 write(4, "windsurfed\nwindsurfing\nwindsurfi"..., 8187) = 8187
+13640 read(3, "ngs\nyield's\nyields\nyip\nyipped\nyi"..., 8192) = 2044
+13640 read(3, "", 8192)                 = 0
+13640 write(4, "year's\nyears\nyea's\nyeas\nyeast\nye"..., 2528) = 2528
+13640 close(4)                          = 0
+13640 close(3)                          = 0
+13640 write(1, "TEST:       1. sequential regula"..., 115) = 115
+13640 write(1, "./stdio-cat files/text1meg.txt >"..., 53) = 53
+13640 write(1, "./stdio-cat files/text1meg.txt >"..., 79) = 79
+13640 write(1, "\n", 1)                 = 1
+13640 pipe2([3, 4], O_CLOEXEC)          = 0
+13640 pipe2([5, 6], O_CLOEXEC)          = 0
+13640 write(1, "here\n", 5)             = 5
+13640 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff71766a310) = 13641
+13641 set_robust_list(0x7ff71766a320, 24) = 0
+13641 gettid()                          = 13641
+13640 wait4(-1, 0x7ffcd0ec688c, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec688c, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec688c, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec688c, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec688c, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec688c, WNOHANG, NULL) = 0
+13641 write(1, "here1c\n", 7 <unfinished ...>
+13640 wait4(-1,  <unfinished ...>
+13641 <... write resumed>)              = 7
+13641 setpgid(0, 0)                     = 0
+13641 close(3)                          = 0
+13641 dup2(4, 100)                      = 100
+13641 close(4)                          = 0
+13641 close(5)                          = 0
+13641 dup2(6, 1)                        = 1
+13641 dup2(6, 2)                        = 2
+13641 close(6)                          = 0
+13640 <... wait4 resumed>0x7ffcd0ec688c, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1,  <unfinished ...>
+13641 write(2, "Traceback (most recent call last"..., 35) = 35
+13641 write(2, "  File \"/home/armaan/BIOShoc/aIO"..., 79) = 79
+13640 <... wait4 resumed>0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1,  <unfinished ...>
+13641 openat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate/check.py", O_RDONLY|O_CLOEXEC) = 3
+13641 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13641 ioctl(3, TCGETS, 0x7ffcd0ec53e0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13641 lseek(3, 0, SEEK_CUR)             = 0
+13641 fcntl(3, F_DUPFD_CLOEXEC, 0)      = 4
+13641 fcntl(4, F_GETFL)                 = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+13641 newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13641 read(4, "\"\"\"\n# FILE: generate-text-files."..., 4096) = 4096
+13641 close(4)                          = 0
+13641 lseek(3, 0, SEEK_SET)             = 0
+13640 <... wait4 resumed>0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1,  <unfinished ...>
+13641 read(3, "\"\"\"\n# FILE: generate-text-files."..., 8192) = 8192
+13641 read(3,  <unfinished ...>
+13640 <... wait4 resumed>0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13641 <... read resumed>"\",\n        \"sequential regular m"..., 8192) = 863
+13640 wait4(-1,  <unfinished ...>
+13641 read(3, "", 8192)                 = 0
+13641 close(3)                          = 0
+13641 write(2, "    main()\n", 11)      = 11
+13641 write(2, "  File \"/home/armaan/BIOShoc/aIO"..., 75) = 75
+13641 openat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate/check.py", O_RDONLY|O_CLOEXEC) = 3
+13641 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13641 ioctl(3, TCGETS, 0x7ffcd0ec53e0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13641 lseek(3, 0, SEEK_CUR)             = 0
+13641 fcntl(3, F_DUPFD_CLOEXEC, 0)      = 4
+13641 fcntl(4, F_GETFL)                 = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+13641 newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13641 read(4, "\"\"\"\n# FILE: generate-text-files."..., 4096) = 4096
+13641 close(4)                          = 0
+13641 lseek(3, 0, SEEK_SET)             = 0
+13641 read(3, "\"\"\"\n# FILE: generate-text-files."..., 8192) = 8192
+13641 close(3)                          = 0
+13641 write(2, "    run(1, \"files/text1meg.txt\","..., 33) = 33
+13641 write(2, "  File \"/home/armaan/BIOShoc/aIO"..., 73) = 73
+13641 openat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate/check.py", O_RDONLY|O_CLOEXEC) = 3
+13641 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13641 ioctl(3, TCGETS, 0x7ffcd0ec53e0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13641 lseek(3, 0, SEEK_CUR)             = 0
+13641 fcntl(3, F_DUPFD_CLOEXEC, 0)      = 4
+13641 fcntl(4, F_GETFL)                 = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+13641 newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13641 read(4, "\"\"\"\n# FILE: generate-text-files."..., 4096) = 4096
+13641 close(4)                          = 0
+13641 lseek(3, 0, SEEK_SET)             = 0
+13641 read(3, "\"\"\"\n# FILE: generate-text-files."..., 8192) = 8192
+13641 close(3)                          = 0
+13641 write(2, "    base_time = run_time_median("..., 88) = 88
+13641 write(2, "                ^^^^^^^^^^^^^^^^"..., 75) = 75
+13641 write(2, "  File \"/home/armaan/BIOShoc/aIO"..., 85) = 85
+13641 openat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate/check.py", O_RDONLY|O_CLOEXEC) = 3
+13641 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13641 ioctl(3, TCGETS, 0x7ffcd0ec53e0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13641 lseek(3, 0, SEEK_CUR)             = 0
+13641 fcntl(3, F_DUPFD_CLOEXEC, 0)      = 4
+13641 fcntl(4, F_GETFL)                 = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+13641 newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13641 read(4, "\"\"\"\n# FILE: generate-text-files."..., 4096) = 4096
+13641 close(4)                          = 0
+13641 lseek(3, 0, SEEK_SET)             = 0
+13641 read(3, "\"\"\"\n# FILE: generate-text-files."..., 8192) = 8192
+13641 close(3)                          = 0
+13641 write(2, "    trial_time = run_time(comman"..., 83) = 83
+13641 write(2, "                 ^^^^^^^^^^^^^^^"..., 83) = 83
+13641 write(2, "  File \"/home/armaan/BIOShoc/aIO"..., 79) = 79
+13641 openat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate/check.py", O_RDONLY|O_CLOEXEC) = 3
+13641 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13641 ioctl(3, TCGETS, 0x7ffcd0ec53e0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13641 lseek(3, 0, SEEK_CUR)             = 0
+13641 fcntl(3, F_DUPFD_CLOEXEC, 0)      = 4
+13641 fcntl(4, F_GETFL)                 = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+13641 newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13641 read(4, "\"\"\"\n# FILE: generate-text-files."..., 4096) = 4096
+13641 close(4)                          = 0
+13641 lseek(3, 0, SEEK_SET)             = 0
+13641 read(3, "\"\"\"\n# FILE: generate-text-files."..., 8192) = 8192
+13641 close(3)                          = 0
+13641 write(2, "    os.execvp(command[0], comman"..., 35) = 35
+13641 write(2, "  File \"<frozen os>\", line 574, "..., 42) = 42
+13641 write(2, "  File \"<frozen os>\", line 607, "..., 44) = 44
+13641 write(2, "TypeError: execv() arg 2 must be"..., 49) = 49
+13641 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7ff7176a6fd0}, {sa_handler=0x678c70, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7ff7176a6fd0}, 8) = 0
+13640 <... wait4 resumed>0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13641 munmap(0x7ff716fcd000, 208896 <unfinished ...>
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1,  <unfinished ...>
+13641 <... munmap resumed>)             = 0
+13640 <... wait4 resumed>0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1,  <unfinished ...>
+13641 munmap(0x7ff717977000, 16384 <unfinished ...>
+13640 <... wait4 resumed>0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13641 <... munmap resumed>)             = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13641 exit_group(1)                     = ?
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13640 wait4(-1, 0x7ffcd0ec68dc, WNOHANG, NULL) = 0
+13641 +++ exited with 1 +++
+13640 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=13641, si_uid=1000, si_status=1, si_utime=2 /* 0.02 s */, si_stime=0} ---
+13640 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 1}], WNOHANG, NULL) = 13641
+13640 close(4)                          = 0
+13640 read(3, "", 2000)                 = 0
+13640 close(3)                          = 0
+13640 close(6)                          = 0
+13640 read(5, "Traceback (most recent call last"..., 2000) = 969
+13640 close(5)                          = 0
+13640 write(1, "{'time': 0.027826786041259766, '"..., 121) = 121
+13640 write(1, "{'time': 0.027826786041259766, '"..., 136) = 136
+13640 write(1, "0.02783s (0.02783s user, 0.02783"..., 56) = 56
+13640 newfstatat(AT_FDCWD, "files/stdio-out.txt", 0x7ffcd0ec67f0, 0) = -1 ENOENT (No such file or directory)
+13640 write(2, "Traceback (most recent call last"..., 35) = 35
+13640 write(2, "  File \"/home/armaan/BIOShoc/aIO"..., 79) = 79
+13640 openat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate/check.py", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec53e0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 fcntl(3, F_DUPFD_CLOEXEC, 0)      = 4
+13640 fcntl(4, F_GETFL)                 = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+13640 newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13640 read(4, "\"\"\"\n# FILE: generate-text-files."..., 4096) = 4096
+13640 close(4)                          = 0
+13640 lseek(3, 0, SEEK_SET)             = 0
+13640 read(3, "\"\"\"\n# FILE: generate-text-files."..., 8192) = 8192
+13640 read(3, "\",\n        \"sequential regular m"..., 8192) = 863
+13640 read(3, "", 8192)                 = 0
+13640 close(3)                          = 0
+13640 write(2, "    main()\n", 11)      = 11
+13640 write(2, "  File \"/home/armaan/BIOShoc/aIO"..., 75) = 75
+13640 openat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate/check.py", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec53e0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 fcntl(3, F_DUPFD_CLOEXEC, 0)      = 4
+13640 fcntl(4, F_GETFL)                 = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+13640 newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13640 read(4, "\"\"\"\n# FILE: generate-text-files."..., 4096) = 4096
+13640 close(4)                          = 0
+13640 lseek(3, 0, SEEK_SET)             = 0
+13640 read(3, "\"\"\"\n# FILE: generate-text-files."..., 8192) = 8192
+13640 close(3)                          = 0
+13640 write(2, "    run(1, \"files/text1meg.txt\","..., 33) = 33
+13640 write(2, "  File \"/home/armaan/BIOShoc/aIO"..., 73) = 73
+13640 openat(AT_FDCWD, "/home/armaan/BIOShoc/aIO/try-automate/check.py", O_RDONLY|O_CLOEXEC) = 3
+13640 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13640 ioctl(3, TCGETS, 0x7ffcd0ec53e0)  = -1 ENOTTY (Inappropriate ioctl for device)
+13640 lseek(3, 0, SEEK_CUR)             = 0
+13640 fcntl(3, F_DUPFD_CLOEXEC, 0)      = 4
+13640 fcntl(4, F_GETFL)                 = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+13640 newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=9055, ...}, AT_EMPTY_PATH) = 0
+13640 read(4, "\"\"\"\n# FILE: generate-text-files."..., 4096) = 4096
+13640 close(4)                          = 0
+13640 lseek(3, 0, SEEK_SET)             = 0
+13640 read(3, "\"\"\"\n# FILE: generate-text-files."..., 8192) = 8192
+13640 close(3)                          = 0
+13640 write(2, "    output_size = os.path.getsiz"..., 61) = 61
+13640 write(2, "                  ^^^^^^^^^^^^^^"..., 57) = 57
+13640 write(2, "  File \"<frozen genericpath>\", l"..., 51) = 51
+13640 write(2, "FileNotFoundError: [Errno 2] No "..., 78) = 78
+13640 rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7ff7176a6fd0}, {sa_handler=0x678c70, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7ff7176a6fd0}, 8) = 0
+13640 munmap(0x7ff716fcd000, 208896)    = 0
+13640 munmap(0x7ff717977000, 16384)     = 0
+13640 exit_group(1)                     = ?
+13640 +++ exited with 1 +++
