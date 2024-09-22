@@ -1,6 +1,0 @@
-Issue: When there's a ; or & indicator, the parser creates a new conditional by default, 
-anticipating subsequent commands. Program seg faults if there is no subsequent command
-during unparse, as we have an incomplete new conditional without any command.
-Goal: When a ; or & is read, create a new conditional only if there is a subsequent command token.
--> If its the last token, do not create a new conditional. (Can check via iterator?): if (!(next(it) == parser.end())) // doesnt work
--> Delete extra structs at the end of string iteration, reset next_in_list (This works).
